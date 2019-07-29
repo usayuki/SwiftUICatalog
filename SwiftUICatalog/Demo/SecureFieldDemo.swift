@@ -1,5 +1,5 @@
 //
-//  TextFieldDemo.swift
+//  SecureFieldDemo.swift
 //  SwiftUICatalog
 //
 //  Created by Keita Watanabe on 2019/07/29.
@@ -8,20 +8,20 @@
 
 import SwiftUI
 
-struct TextFieldDemo: View {
+struct SecureFieldDemo: View {
     @Binding var text: String
     
     var body: some View {
-        TextField("placeholder", text: $text)
+        SecureField("placeholder", text: $text)
     }
 }
 
 #if DEBUG
-struct TextFieldDemo_Previews: PreviewProvider {
-    @State static var text = "TextField"
+struct SecureFieldDemo_Previews: PreviewProvider {
+    @State static var text = "SecureField"
     
     static var previews: some View {
-        TextFieldDemo(text: $text)
+        SecureFieldDemo(text: $text)
     }
 }
 #endif

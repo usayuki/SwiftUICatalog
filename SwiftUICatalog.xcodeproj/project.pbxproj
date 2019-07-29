@@ -15,6 +15,7 @@
 		23A1069E22E3538D00B505B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069C22E3538D00B505B1 /* LaunchScreen.storyboard */; };
 		23BCE82922EF2D9F0008D721 /* TextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCE82822EF2D9F0008D721 /* TextDemo.swift */; };
 		23BCE82B22EF2E3E0008D721 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCE82A22EF2E3E0008D721 /* TextFieldDemo.swift */; };
+		23BCE82D22EF31850008D721 /* SecureFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCE82C22EF31850008D721 /* SecureFieldDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		23A1069F22E3538D00B505B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23BCE82822EF2D9F0008D721 /* TextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextDemo.swift; path = ../../../../../../../../System/Volumes/Data/Users/keita/github/github.com/usayuki/SwiftUICatalog/SwiftUICatalog/Demo/TextDemo.swift; sourceTree = "<group>"; };
 		23BCE82A22EF2E3E0008D721 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldDemo.swift; path = ../../../../../../../../System/Volumes/Data/Users/keita/github/github.com/usayuki/SwiftUICatalog/SwiftUICatalog/Demo/TextFieldDemo.swift; sourceTree = "<group>"; };
+		23BCE82C22EF31850008D721 /* SecureFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecureFieldDemo.swift; path = ../../../../../../../../System/Volumes/Data/Users/keita/github/github.com/usayuki/SwiftUICatalog/SwiftUICatalog/Demo/SecureFieldDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				23BCE82822EF2D9F0008D721 /* TextDemo.swift */,
 				23BCE82A22EF2E3E0008D721 /* TextFieldDemo.swift */,
+				23BCE82C22EF31850008D721 /* SecureFieldDemo.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BCE82D22EF31850008D721 /* SecureFieldDemo.swift in Sources */,
 				23BCE82B22EF2E3E0008D721 /* TextFieldDemo.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,

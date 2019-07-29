@@ -14,6 +14,7 @@ struct MainView: View {
             List {
                 NavigationLink("Text", destination: TextDemo())
                 NavigationLink("TextField", destination: TextFieldDemo(text: .constant("")))
+                NavigationLink("SecureField", destination: SecureFieldDemo(text: .constant("")))
             }
             .navigationBarTitle("SwiftUICatalog")
         }
