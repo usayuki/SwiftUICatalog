@@ -13,6 +13,8 @@
 		23A1069822E3538D00B505B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069722E3538D00B505B1 /* Assets.xcassets */; };
 		23A1069B22E3538D00B505B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069A22E3538D00B505B1 /* Preview Assets.xcassets */; };
 		23A1069E22E3538D00B505B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069C22E3538D00B505B1 /* LaunchScreen.storyboard */; };
+		23BCE82922EF2D9F0008D721 /* TextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCE82822EF2D9F0008D721 /* TextDemo.swift */; };
+		23BCE82B22EF2E3E0008D721 /* TextFieldDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCE82A22EF2E3E0008D721 /* TextFieldDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		23A1069A22E3538D00B505B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23A1069D22E3538D00B505B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A1069F22E3538D00B505B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BCE82822EF2D9F0008D721 /* TextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextDemo.swift; path = ../../../../../../../../System/Volumes/Data/Users/keita/github/github.com/usayuki/SwiftUICatalog/SwiftUICatalog/Demo/TextDemo.swift; sourceTree = "<group>"; };
+		23BCE82A22EF2E3E0008D721 /* TextFieldDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldDemo.swift; path = ../../../../../../../../System/Volumes/Data/Users/keita/github/github.com/usayuki/SwiftUICatalog/SwiftUICatalog/Demo/TextFieldDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		23A1069022E3538A00B505B1 /* SwiftUICatalog */ = {
 			isa = PBXGroup;
 			children = (
+				23BCE82722EF2D6F0008D721 /* Demo */,
 				23A1069122E3538A00B505B1 /* AppDelegate.swift */,
 				23A1069322E3538A00B505B1 /* SceneDelegate.swift */,
 				23A1069522E3538A00B505B1 /* MainView.swift */,
@@ -73,6 +78,15 @@
 				23A1069A22E3538D00B505B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23BCE82722EF2D6F0008D721 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				23BCE82822EF2D9F0008D721 /* TextDemo.swift */,
+				23BCE82A22EF2E3E0008D721 /* TextFieldDemo.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BCE82B22EF2E3E0008D721 /* TextFieldDemo.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
+				23BCE82922EF2D9F0008D721 /* TextDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
