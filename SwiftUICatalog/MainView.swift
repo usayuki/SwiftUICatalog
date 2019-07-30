@@ -12,11 +12,15 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("Text", destination: TextDemo())
-                NavigationLink("TextField", destination: TextFieldDemo(text: .constant("")))
-                NavigationLink("SecureField", destination: SecureFieldDemo(text: .constant("")))
+                NavigationLink(destination: TextView()) {
+                    VStack(alignment: .leading) {
+                        Text("Text")
+                        Text("A view that displays one or more lines of read-only text.")
+                            .font(.caption)
+                    }
+                }
             }
-            .navigationBarTitle("SwiftUICatalog")
+            .navigationBarTitle("SwiftUI Catalog")
         }
     }
 }
