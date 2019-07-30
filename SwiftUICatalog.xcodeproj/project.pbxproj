@@ -13,6 +13,10 @@
 		23A1069822E3538D00B505B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069722E3538D00B505B1 /* Assets.xcassets */; };
 		23A1069B22E3538D00B505B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069A22E3538D00B505B1 /* Preview Assets.xcassets */; };
 		23A1069E22E3538D00B505B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1069C22E3538D00B505B1 /* LaunchScreen.storyboard */; };
+		58184B3A22F0200200A85DAB /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58184B3922F0200200A85DAB /* NavigationLinkView.swift */; };
+		58184B3C22F0201B00A85DAB /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58184B3B22F0201B00A85DAB /* MenuButtonView.swift */; };
+		58184B3E22F0202900A85DAB /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58184B3D22F0202900A85DAB /* EditButtonView.swift */; };
+		58184B4022F0203900A85DAB /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58184B3F22F0203800A85DAB /* PasteButtonView.swift */; };
 		58696AF822F00F5C003E9C01 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58696AF722F00F5C003E9C01 /* TextFieldView.swift */; };
 		58696AFA22F00F72003E9C01 /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58696AF922F00F72003E9C01 /* SecureFieldView.swift */; };
 		58696AFC22F00F8E003E9C01 /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58696AFB22F00F8E003E9C01 /* FontView.swift */; };
@@ -30,6 +34,10 @@
 		23A1069A22E3538D00B505B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23A1069D22E3538D00B505B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A1069F22E3538D00B505B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58184B3922F0200200A85DAB /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationLinkView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Buttons/NavigationLinkView.swift; sourceTree = "<group>"; };
+		58184B3B22F0201B00A85DAB /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuButtonView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Buttons/MenuButtonView.swift; sourceTree = "<group>"; };
+		58184B3D22F0202900A85DAB /* EditButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditButtonView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Buttons/EditButtonView.swift; sourceTree = "<group>"; };
+		58184B3F22F0203800A85DAB /* PasteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasteButtonView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Buttons/PasteButtonView.swift; sourceTree = "<group>"; };
 		58696AF722F00F5C003E9C01 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Text/TextFieldView.swift; sourceTree = "<group>"; };
 		58696AF922F00F72003E9C01 /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecureFieldView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Text/SecureFieldView.swift; sourceTree = "<group>"; };
 		58696AFB22F00F8E003E9C01 /* FontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/ViewsAndControls/Text/FontView.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				58696B0122F01114003E9C01 /* ButtonView.swift */,
+				58184B3922F0200200A85DAB /* NavigationLinkView.swift */,
+				58184B3B22F0201B00A85DAB /* MenuButtonView.swift */,
+				58184B3D22F0202900A85DAB /* EditButtonView.swift */,
+				58184B3F22F0203800A85DAB /* PasteButtonView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -196,12 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58184B3E22F0202900A85DAB /* EditButtonView.swift in Sources */,
+				58184B3C22F0201B00A85DAB /* MenuButtonView.swift in Sources */,
 				58696AFF22F010A7003E9C01 /* ImageView.swift in Sources */,
+				58184B4022F0203900A85DAB /* PasteButtonView.swift in Sources */,
 				58696AFA22F00F72003E9C01 /* SecureFieldView.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				58696AF822F00F5C003E9C01 /* TextFieldView.swift in Sources */,
 				58AE7BBE22F000A2009A56AB /* TextView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
+				58184B3A22F0200200A85DAB /* NavigationLinkView.swift in Sources */,
 				58696AFC22F00F8E003E9C01 /* FontView.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
 				58696B0222F01114003E9C01 /* ButtonView.swift in Sources */,

@@ -54,6 +54,34 @@ struct MainView: View {
                             .font(.caption)
                     }
                 }
+                NavigationLink(destination: NavigationLinkView()) {
+                    VStack(alignment: .leading) {
+                        Text("NavigationLink")
+                        Text("A button that triggers a navigation presentation when pressed.")
+                            .font(.caption)
+                    }
+                }
+                NavigationLink(destination: MenuButtonView()) {
+                    VStack(alignment: .leading) {
+                        Text("MenuButton")
+                        Text("A button that displays a menu containing a list of choices when pressed.")
+                            .font(.caption)
+                    }
+                }
+                NavigationLink(destination: EditButtonView()) {
+                    VStack(alignment: .leading) {
+                        Text("EditButton")
+                        Text("A button that toggles the edit mode for the current edit scope.")
+                            .font(.caption)
+                    }
+                }
+                NavigationLink(destination: PasteButtonView()) {
+                    VStack(alignment: .leading) {
+                        Text("PasteButton")
+                        Text("A system button that triggers reading data from the pasteboard.")
+                            .font(.caption)
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI Catalog")
         }
