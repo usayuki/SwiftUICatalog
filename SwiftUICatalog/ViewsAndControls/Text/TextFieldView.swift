@@ -9,15 +9,19 @@
 import SwiftUI
 
 struct TextFieldView: View {
+    @Binding var text: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        TextField($text)
     }
 }
 
 #if DEBUG
 struct TextFieldView_Previews: PreviewProvider {
+    @State static var text = "aaa"
+    
     static var previews: some View {
-        TextFieldView()
+        TextFieldView(text: $text)
     }
 }
 #endif
