@@ -45,13 +45,23 @@ struct FontView: View {
                 Text("Adds italics to the font.")
                     .italic()
             }
-            Section(header: Text("等幅")) {
-                Text("Adjusts the font to use monospace digits.")
-                    .font(.system(.body).monospacedDigit())
-            }
-            Section(header: Text("")) {
-                Text("Adjusts the font to use small capitals.")
-                    .font(.system(.body).smallCaps())
+            Section(header: Text("文字の太さ")) {
+                Text("black")
+                    .fontWeight(.black)
+                Text("bold")
+                    .fontWeight(.bold)
+                Text("heavy")
+                    .fontWeight(.heavy)
+                Text("light")
+                    .fontWeight(.light)
+                Text("regular")
+                    .fontWeight(.regular)
+                Text("semibold")
+                    .fontWeight(.semibold)
+                Text("thin")
+                    .fontWeight(.thin)
+                Text("ultraLight")
+                    .fontWeight(.ultraLight)
             }
         }
         .listStyle(.grouped)
