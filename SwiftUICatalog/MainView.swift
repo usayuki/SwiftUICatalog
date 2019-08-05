@@ -19,7 +19,7 @@ struct MainView: View {
                             .font(.caption)
                     }
                 }
-                NavigationLink(destination: TextFieldView()) {
+                NavigationLink(destination: TextFieldView(text: .constant(""))) {
                     VStack(alignment: .leading) {
                         Text("TextField")
                         Text("A control that displays an editable text interface.")
