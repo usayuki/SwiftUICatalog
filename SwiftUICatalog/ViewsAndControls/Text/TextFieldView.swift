@@ -12,7 +12,7 @@ struct TextFieldView: View {
     @Binding var text: String
     
     var body: some View {
-        TextField($text)
+        TextField("aaa", text: $text)
     }
 }
 

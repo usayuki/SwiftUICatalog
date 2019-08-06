@@ -65,7 +65,7 @@ struct TextView: View {
                     .foregroundColor(.red)
             }
         }
-        .listStyle(.grouped)
+        .listStyle(GroupedListStyle())
     }
 }
 
