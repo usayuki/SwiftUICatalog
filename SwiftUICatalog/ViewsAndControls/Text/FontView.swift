@@ -64,7 +64,7 @@ struct FontView: View {
                     .fontWeight(.ultraLight)
             }
         }
-        .listStyle(.grouped)
+        .listStyle(GroupedListStyle())
     }
 }
 
