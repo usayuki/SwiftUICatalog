@@ -96,6 +96,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		23B1F0A322FA451D0041669F /* Value Selectors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Value Selectors";
+			sourceTree = "<group>";
+		};
 		58696AFD22F01089003E9C01 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +129,7 @@
 				58AE7BBC22F00091009A56AB /* Text */,
 				58696AFD22F01089003E9C01 /* Images */,
 				58696B0022F010F1003E9C01 /* Buttons */,
+				23B1F0A322FA451D0041669F /* Value Selectors */,
 			);
 			path = ViewsAndControls;
 			sourceTree = "<group>";
