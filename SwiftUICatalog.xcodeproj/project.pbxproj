@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235C117D22FEA59500DAB5AF /* TextSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C117C22FEA59500DAB5AF /* TextSection.swift */; };
+		235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C117E22FEA5D300DAB5AF /* ImageSection.swift */; };
+		235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C118022FEA60000DAB5AF /* ButtonSection.swift */; };
+		235C118322FEA63F00DAB5AF /* ValueSelectorsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C118222FEA63F00DAB5AF /* ValueSelectorsSection.swift */; };
 		23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069122E3538A00B505B1 /* AppDelegate.swift */; };
 		23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069322E3538A00B505B1 /* SceneDelegate.swift */; };
 		23A1069622E3538A00B505B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069522E3538A00B505B1 /* MainView.swift */; };
@@ -31,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		235C117C22FEA59500DAB5AF /* TextSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSection.swift; sourceTree = "<group>"; };
+		235C117E22FEA5D300DAB5AF /* ImageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSection.swift; sourceTree = "<group>"; };
+		235C118022FEA60000DAB5AF /* ButtonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSection.swift; sourceTree = "<group>"; };
+		235C118222FEA63F00DAB5AF /* ValueSelectorsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelectorsSection.swift; sourceTree = "<group>"; };
 		23A1068E22E3538A00B505B1 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1069122E3538A00B505B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1069322E3538A00B505B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +122,7 @@
 				23B1F0AA22FE68380041669F /* SliderView.swift */,
 				23B1F0AC22FE68430041669F /* StepperView.swift */,
 				23B1F0A422FE68190041669F /* ToggleView.swift */,
+				235C118222FEA63F00DAB5AF /* ValueSelectorsSection.swift */,
 			);
 			path = "Value Selectors";
 			sourceTree = "<group>";
@@ -121,6 +130,7 @@
 		58696AFD22F01089003E9C01 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				235C117E22FEA5D300DAB5AF /* ImageSection.swift */,
 				23B1F09722F9B9880041669F /* ImageView.swift */,
 			);
 			path = Images;
@@ -129,6 +139,7 @@
 		58696B0022F010F1003E9C01 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
+				235C118022FEA60000DAB5AF /* ButtonSection.swift */,
 				23B1F09B22F9B99C0041669F /* ButtonView.swift */,
 				23B1F09D22F9B99C0041669F /* EditButtonView.swift */,
 				23B1F09C22F9B99C0041669F /* MenuButtonView.swift */,
@@ -155,6 +166,7 @@
 				23B1F09222F9B94B0041669F /* FontView.swift */,
 				23B1F09322F9B94B0041669F /* SecureFieldView.swift */,
 				23B1F09122F9B94B0041669F /* TextFieldView.swift */,
+				235C117C22FEA59500DAB5AF /* TextSection.swift */,
 				23B1F08F22F9B9180041669F /* TextView.swift */,
 			);
 			path = Text;
@@ -231,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235C118322FEA63F00DAB5AF /* ValueSelectorsSection.swift in Sources */,
 				23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */,
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
 				23B1F09E22F9B99C0041669F /* PasteButtonView.swift in Sources */,
@@ -242,9 +255,12 @@
 				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				23B1F0A722FE68240041669F /* PickerView.swift in Sources */,
+				235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
+				235C117D22FEA59500DAB5AF /* TextSection.swift in Sources */,
 				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
+				235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
