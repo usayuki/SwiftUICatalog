@@ -11,6 +11,10 @@
 		235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C117E22FEA5D300DAB5AF /* ImageSection.swift */; };
 		235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C118022FEA60000DAB5AF /* ButtonSection.swift */; };
 		235C118322FEA63F00DAB5AF /* ValueSelectorsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235C118222FEA63F00DAB5AF /* ValueSelectorsSection.swift */; };
+		238F7CE022FEAD9400822FD8 /* StacksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CDF22FEAD9400822FD8 /* StacksSection.swift */; };
+		238F7CE222FEADA000822FD8 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CE122FEADA000822FD8 /* HStackView.swift */; };
+		238F7CE422FEADAD00822FD8 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CE322FEADAD00822FD8 /* VStackView.swift */; };
+		238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CE522FEADB800822FD8 /* ZStackView.swift */; };
 		23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069122E3538A00B505B1 /* AppDelegate.swift */; };
 		23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069322E3538A00B505B1 /* SceneDelegate.swift */; };
 		23A1069622E3538A00B505B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069522E3538A00B505B1 /* MainView.swift */; };
@@ -39,6 +43,10 @@
 		235C117E22FEA5D300DAB5AF /* ImageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSection.swift; sourceTree = "<group>"; };
 		235C118022FEA60000DAB5AF /* ButtonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSection.swift; sourceTree = "<group>"; };
 		235C118222FEA63F00DAB5AF /* ValueSelectorsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelectorsSection.swift; sourceTree = "<group>"; };
+		238F7CDF22FEAD9400822FD8 /* StacksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksSection.swift; sourceTree = "<group>"; };
+		238F7CE122FEADA000822FD8 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		238F7CE322FEADAD00822FD8 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
+		238F7CE522FEADB800822FD8 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 		23A1068E22E3538A00B505B1 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1069122E3538A00B505B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1069322E3538A00B505B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +83,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238F7CDD22FEAD3A00822FD8 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				238F7CE122FEADA000822FD8 /* HStackView.swift */,
+				238F7CDF22FEAD9400822FD8 /* StacksSection.swift */,
+				238F7CE322FEADAD00822FD8 /* VStackView.swift */,
+				238F7CE522FEADB800822FD8 /* ZStackView.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		238F7CDE22FEAD6000822FD8 /* ViewLayoutAndPresentation  */ = {
+			isa = PBXGroup;
+			children = (
+				238F7CDD22FEAD3A00822FD8 /* Stacks */,
+			);
+			path = "ViewLayoutAndPresentation ";
+			sourceTree = "<group>";
+		};
 		23A1068522E3538900B505B1 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				58AE7BBB22F00075009A56AB /* ViewsAndControls */,
+				238F7CDE22FEAD6000822FD8 /* ViewLayoutAndPresentation  */,
 				23A1069122E3538A00B505B1 /* AppDelegate.swift */,
 				23A1069322E3538A00B505B1 /* SceneDelegate.swift */,
 				23A1069522E3538A00B505B1 /* MainView.swift */,
@@ -247,8 +275,11 @@
 				23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */,
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
 				23B1F09E22F9B99C0041669F /* PasteButtonView.swift in Sources */,
+				238F7CE222FEADA000822FD8 /* HStackView.swift in Sources */,
+				238F7CE022FEAD9400822FD8 /* StacksSection.swift in Sources */,
 				23B1F0A122F9B99D0041669F /* MenuButtonView.swift in Sources */,
 				23B1F0AD22FE68430041669F /* StepperView.swift in Sources */,
+				238F7CE422FEADAD00822FD8 /* VStackView.swift in Sources */,
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
 				23B1F09022F9B9180041669F /* TextView.swift in Sources */,
 				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
@@ -264,6 +295,7 @@
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
+				238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */,
 				23B1F09522F9B94B0041669F /* FontView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
