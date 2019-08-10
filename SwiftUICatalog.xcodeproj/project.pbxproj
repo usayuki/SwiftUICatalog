@@ -27,6 +27,11 @@
 		238F7CFF22FEB2CC00822FD8 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CFE22FEB2CC00822FD8 /* SpacerView.swift */; };
 		238F7D0122FEB2D700822FD8 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0022FEB2D700822FD8 /* DividerView.swift */; };
 		238F7D0322FEB2E600822FD8 /* SpacersAndDividerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0222FEB2E600822FD8 /* SpacersAndDividerSection.swift */; };
+		238F7D0622FEB41700822FD8 /* NavigationViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0522FEB41700822FD8 /* NavigationViewView.swift */; };
+		238F7D0822FEB42400822FD8 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0722FEB42400822FD8 /* TabViewView.swift */; };
+		238F7D0E22FEB45400822FD8 /* HSplitViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0D22FEB45400822FD8 /* HSplitViewView.swift */; };
+		238F7D1022FEB45B00822FD8 /* VSplitViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0F22FEB45B00822FD8 /* VSplitViewView.swift */; };
+		238F7D1222FEB46800822FD8 /* ArchitecturalViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1122FEB46800822FD8 /* ArchitecturalViewsSection.swift */; };
 		23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069122E3538A00B505B1 /* AppDelegate.swift */; };
 		23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069322E3538A00B505B1 /* SceneDelegate.swift */; };
 		23A1069622E3538A00B505B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069522E3538A00B505B1 /* MainView.swift */; };
@@ -71,6 +76,11 @@
 		238F7CFE22FEB2CC00822FD8 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		238F7D0022FEB2D700822FD8 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		238F7D0222FEB2E600822FD8 /* SpacersAndDividerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersAndDividerSection.swift; sourceTree = "<group>"; };
+		238F7D0522FEB41700822FD8 /* NavigationViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewView.swift; sourceTree = "<group>"; };
+		238F7D0722FEB42400822FD8 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
+		238F7D0D22FEB45400822FD8 /* HSplitViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSplitViewView.swift; sourceTree = "<group>"; };
+		238F7D0F22FEB45B00822FD8 /* VSplitViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSplitViewView.swift; sourceTree = "<group>"; };
+		238F7D1122FEB46800822FD8 /* ArchitecturalViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitecturalViewsSection.swift; sourceTree = "<group>"; };
 		23A1068E22E3538A00B505B1 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1069122E3538A00B505B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1069322E3538A00B505B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +135,7 @@
 				238F7CE722FEAF2300822FD8 /* ListsAndScrollViews */,
 				238F7CF022FEB10100822FD8 /* ContainerViews */,
 				238F7CFB22FEB28700822FD8 /* SpacersAndDividers */,
+				238F7D0422FEB3F500822FD8 /* ArchitecturalViews  */,
 			);
 			path = "ViewLayoutAndPresentation ";
 			sourceTree = "<group>";
@@ -160,6 +171,18 @@
 				238F7CFE22FEB2CC00822FD8 /* SpacerView.swift */,
 			);
 			path = SpacersAndDividers;
+			sourceTree = "<group>";
+		};
+		238F7D0422FEB3F500822FD8 /* ArchitecturalViews  */ = {
+			isa = PBXGroup;
+			children = (
+				238F7D1122FEB46800822FD8 /* ArchitecturalViewsSection.swift */,
+				238F7D0D22FEB45400822FD8 /* HSplitViewView.swift */,
+				238F7D0522FEB41700822FD8 /* NavigationViewView.swift */,
+				238F7D0722FEB42400822FD8 /* TabViewView.swift */,
+				238F7D0F22FEB45B00822FD8 /* VSplitViewView.swift */,
+			);
+			path = "ArchitecturalViews ";
 			sourceTree = "<group>";
 		};
 		23A1068522E3538900B505B1 = {
@@ -342,6 +365,8 @@
 				23B1F0AD22FE68430041669F /* StepperView.swift in Sources */,
 				238F7CE422FEADAD00822FD8 /* VStackView.swift in Sources */,
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
+				238F7D0622FEB41700822FD8 /* NavigationViewView.swift in Sources */,
+				238F7D1222FEB46800822FD8 /* ArchitecturalViewsSection.swift in Sources */,
 				23B1F09022F9B9180041669F /* TextView.swift in Sources */,
 				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
 				238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */,
@@ -354,15 +379,18 @@
 				238F7CFF22FEB2CC00822FD8 /* SpacerView.swift in Sources */,
 				238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */,
 				235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */,
+				238F7D0E22FEB45400822FD8 /* HSplitViewView.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
 				238F7CE922FEAF5200822FD8 /* ListView.swift in Sources */,
 				235C117D22FEA59500DAB5AF /* TextSection.swift in Sources */,
 				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
+				238F7D1022FEB45B00822FD8 /* VSplitViewView.swift in Sources */,
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
 				235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */,
 				238F7D0122FEB2D700822FD8 /* DividerView.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
 				238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */,
+				238F7D0822FEB42400822FD8 /* TabViewView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
 				238F7D0322FEB2E600822FD8 /* SpacersAndDividerSection.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
