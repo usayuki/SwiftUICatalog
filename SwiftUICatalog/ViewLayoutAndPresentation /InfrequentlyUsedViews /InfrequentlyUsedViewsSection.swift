@@ -12,18 +12,10 @@ struct InfrequentlyUsedViewsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: AnyViewView()) {
-                VStack(alignment: .leading) {
-                    Text("AnyView")
-                    Text("A type-erased View.")
-                        .font(.caption)
-                }
+                RowItem(title: "AnyView", caption: "A type-erased View.")
             }
             NavigationLink(destination: TupleViewView()) {
-                VStack(alignment: .leading) {
-                    Text("TupleView")
-                    Text("A View created from a swift tuple of View values.")
-                        .font(.caption)
-                }
+                RowItem(title: "TupleView", caption: "A View created from a swift tuple of View values.")
             }
         }
     }

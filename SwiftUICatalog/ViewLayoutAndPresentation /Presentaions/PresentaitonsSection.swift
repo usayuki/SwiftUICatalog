@@ -12,18 +12,10 @@ struct PresentaitonsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: AlertView()) {
-                VStack(alignment: .leading) {
-                    Text("Alert")
-                    Text("A container for an alert presentation.")
-                        .font(.caption)
-                }
+                RowItem(title: "Alert", caption: "A container for an alert presentation.")
             }
             NavigationLink(destination: ActionSheetView()) {
-                VStack(alignment: .leading) {
-                    Text("ActionSheet")
-                    Text("A storage type for an action sheet presentation.")
-                        .font(.caption)
-                }
+                RowItem(title: "ActionSheet", caption: "A storage type for an action sheet presentation.")
             }
         }
     }

@@ -12,18 +12,10 @@ struct SpacersAndDividerSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: SpacerView()) {
-                VStack(alignment: .leading) {
-                    Text("Spacer")
-                    Text("A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
-                        .font(.caption)
-                }
+                RowItem(title: "Spacer", caption: "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.")
             }
             NavigationLink(destination: DividerView()) {
-                VStack(alignment: .leading) {
-                    Text("Divider")
-                    Text("A visual element that can be used to separate other content.")
-                        .font(.caption)
-                }
+                RowItem(title: "Divider", caption: "A visual element that can be used to separate other content.")
             }
         }
     }

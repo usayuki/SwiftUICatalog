@@ -12,32 +12,16 @@ struct ContainerViewsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: FormView()) {
-                VStack(alignment: .leading) {
-                    Text("Form")
-                    Text("A container for grouping controls used for data entry, such as in settings or inspectors.")
-                        .font(.caption)
-                }
+                RowItem(title: "Form", caption: "A container for grouping controls used for data entry, such as in settings or inspectors.")
             }
             NavigationLink(destination: GroupView()) {
-                VStack(alignment: .leading) {
-                    Text("Group")
-                    Text("An affordance for grouping view content.")
-                        .font(.caption)
-                }
+                RowItem(title: "Group", caption: "An affordance for grouping view content.")
             }
             NavigationLink(destination: GroupBoxView()) {
-                VStack(alignment: .leading) {
-                    Text("GroupBox")
-                    Text("A stylized view with an optional label that is associated with a logical grouping of content.")
-                        .font(.caption)
-                }
+                RowItem(title: "GroupBox", caption: "A stylized view with an optional label that is associated with a logical grouping of content.")
             }
             NavigationLink(destination: SectionView()) {
-                VStack(alignment: .leading) {
-                    Text("Section")
-                    Text("An affordance for creating hierarchical view content.")
-                        .font(.caption)
-                }
+                RowItem(title: "Section", caption: "An affordance for creating hierarchical view content.")
             }
         }
     }

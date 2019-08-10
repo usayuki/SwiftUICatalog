@@ -12,16 +12,10 @@ struct ConditionallyVisibleItemsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: EmptyViewView()) {
-                VStack(alignment: .leading) {
-                    Text("EmptyView")
-                }
+                RowItem(title: "EmptyView")
             }
             NavigationLink(destination: EquatableViewView()) {
-                VStack(alignment: .leading) {
-                    Text("EquatableView")
-                    Text("A view type that compares itself against its previous value and prevents its child updating if its new value is the same as its old value.")
-                        .font(.caption)
-                }
+                RowItem(title: "EquatableView", caption: "A view type that compares itself against its previous value and prevents its child updating if its new value is the same as its old value.")
             }
         }
     }

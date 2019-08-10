@@ -12,32 +12,16 @@ struct ArchitecturalViewsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: NavigationViewView()) {
-                VStack(alignment: .leading) {
-                    Text("NavigationView")
-                    Text("A view for presenting a stack of views representing a visible path in a navigation hierarchy.")
-                        .font(.caption)
-                }
+                RowItem(title: "NavigationView", caption: "A view for presenting a stack of views representing a visible path in a navigation hierarchy.")
             }
             NavigationLink(destination: TabViewView()) {
-                VStack(alignment: .leading) {
-                    Text("TabView")
-                    Text("A view that switches between multiple child views using interactive user interface elements.")
-                        .font(.caption)
-                }
+                RowItem(title: "TabView", caption: "A view that switches between multiple child views using interactive user interface elements.")
             }
             NavigationLink(destination: HSplitViewView()) {
-                VStack(alignment: .leading) {
-                    Text("HSplitView")
-                    Text("A layout container that arranges its children in a horizontal line and allows the user to resize them using dividers placed between them.")
-                        .font(.caption)
-                }
+                RowItem(title: "HSplitView", caption: "A layout container that arranges its children in a horizontal line and allows the user to resize them using dividers placed between them.")
             }
             NavigationLink(destination: VSplitViewView()) {
-                VStack(alignment: .leading) {
-                    Text("VSplitView")
-                    Text("A layout container that arranges its children in a vertical line and allows the user to resize them using dividers placed between them.")
-                        .font(.caption)
-                }
+                RowItem(title: "VSplitView", caption: "A layout container that arranges its children in a vertical line and allows the user to resize them using dividers placed between them.")
             }
         }
     }
