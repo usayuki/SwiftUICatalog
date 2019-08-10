@@ -23,6 +23,11 @@
 		23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09B22F9B99C0041669F /* ButtonView.swift */; };
 		23B1F0A122F9B99D0041669F /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09C22F9B99C0041669F /* MenuButtonView.swift */; };
 		23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09D22F9B99C0041669F /* EditButtonView.swift */; };
+		23B1F0A522FE68190041669F /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A422FE68190041669F /* ToggleView.swift */; };
+		23B1F0A722FE68240041669F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A622FE68240041669F /* PickerView.swift */; };
+		23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A822FE682F0041669F /* DatePickerView.swift */; };
+		23B1F0AB22FE68380041669F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AA22FE68380041669F /* SliderView.swift */; };
+		23B1F0AD22FE68430041669F /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AC22FE68430041669F /* StepperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		23B1F09B22F9B99C0041669F /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		23B1F09C22F9B99C0041669F /* MenuButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		23B1F09D22F9B99C0041669F /* EditButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
+		23B1F0A422FE68190041669F /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		23B1F0A622FE68240041669F /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		23B1F0A822FE682F0041669F /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		23B1F0AA22FE68380041669F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		23B1F0AC22FE68430041669F /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		23B1F0A322FA451D0041669F /* Value Selectors */ = {
 			isa = PBXGroup;
 			children = (
+				23B1F0A822FE682F0041669F /* DatePickerView.swift */,
+				23B1F0A622FE68240041669F /* PickerView.swift */,
+				23B1F0AA22FE68380041669F /* SliderView.swift */,
+				23B1F0AC22FE68430041669F /* StepperView.swift */,
+				23B1F0A422FE68190041669F /* ToggleView.swift */,
 			);
 			path = "Value Selectors";
 			sourceTree = "<group>";
@@ -220,10 +235,15 @@
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
 				23B1F09E22F9B99C0041669F /* PasteButtonView.swift in Sources */,
 				23B1F0A122F9B99D0041669F /* MenuButtonView.swift in Sources */,
+				23B1F0AD22FE68430041669F /* StepperView.swift in Sources */,
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
 				23B1F09022F9B9180041669F /* TextView.swift in Sources */,
+				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
+				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
+				23B1F0A722FE68240041669F /* PickerView.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
+				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
