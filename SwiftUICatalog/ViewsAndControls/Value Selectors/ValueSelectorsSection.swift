@@ -12,39 +12,19 @@ struct ValueSelectorsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: ToggleView()) {
-                VStack(alignment: .leading) {
-                    Text("Toggle")
-                    Text("A control that toggles between on and off states.")
-                        .font(.caption)
-                }
+                RowItem(title: "Toggle", caption: "A control that toggles between on and off states.")
             }
             NavigationLink(destination: PickerView()) {
-                VStack(alignment: .leading) {
-                    Text("Picker")
-                    Text("A control for selecting from a set of mutually exclusive values.")
-                        .font(.caption)
-                }
+                RowItem(title: "Picker", caption: "A control for selecting from a set of mutually exclusive values.")
             }
             NavigationLink(destination: DatePickerView()) {
-                VStack(alignment: .leading) {
-                    Text("DatePicker")
-                    Text("A control for selecting an absolute date.")
-                        .font(.caption)
-                }
+                RowItem(title: "DatePicker", caption: "A control for selecting an absolute date.")
             }
             NavigationLink(destination: SliderView()) {
-                VStack(alignment: .leading) {
-                    Text("Slider")
-                    Text("A control for selecting a value from a bounded linear range of values.")
-                        .font(.caption)
-                }
+                RowItem(title: "Slider", caption: "A control for selecting a value from a bounded linear range of values.")
             }
             NavigationLink(destination: StepperView()) {
-                VStack(alignment: .leading) {
-                    Text("Stepper")
-                    Text("A control used to perform semantic increment and decrement actions.")
-                        .font(.caption)
-                }
+                RowItem(title: "Stepper", caption: "A control used to perform semantic increment and decrement actions.")
             }
         }
     }

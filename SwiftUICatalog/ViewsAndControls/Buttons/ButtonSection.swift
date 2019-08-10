@@ -12,39 +12,19 @@ struct ButtonSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: ButtonView()) {
-                VStack(alignment: .leading) {
-                    Text("Button")
-                    Text("A control that performs an action when triggered.")
-                        .font(.caption)
-                }
+                RowItem(title: "Button", caption: "A control that performs an action when triggered.")
             }
             NavigationLink(destination: NavigationLinkView()) {
-                VStack(alignment: .leading) {
-                    Text("NavigationLink")
-                    Text("A button that triggers a navigation presentation when pressed.")
-                        .font(.caption)
-                }
+                RowItem(title: "NavigationLink", caption: "A button that triggers a navigation presentation when pressed.")
             }
             NavigationLink(destination: MenuButtonView()) {
-                VStack(alignment: .leading) {
-                    Text("MenuButton")
-                    Text("A button that displays a menu containing a list of choices when pressed.")
-                        .font(.caption)
-                }
+                RowItem(title: "MenuButton", caption: "A button that displays a menu containing a list of choices when pressed.")
             }
             NavigationLink(destination: EditButtonView()) {
-                VStack(alignment: .leading) {
-                    Text("EditButton")
-                    Text("A button that toggles the edit mode for the current edit scope.")
-                        .font(.caption)
-                }
+                RowItem(title: "EditButton", caption: "A button that toggles the edit mode for the current edit scope.")
             }
             NavigationLink(destination: PasteButtonView()) {
-                VStack(alignment: .leading) {
-                    Text("PasteButton")
-                    Text("A system button that triggers reading data from the pasteboard.")
-                        .font(.caption)
-                }
+                RowItem(title: "PasteButton", caption: "A system button that triggers reading data from the pasteboard.")
             }
         }
     }

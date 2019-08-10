@@ -12,32 +12,16 @@ struct TextSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: TextView()) {
-                VStack(alignment: .leading) {
-                    Text("Text")
-                    Text("A view that displays one or more lines of read-only text.")
-                        .font(.caption)
-                }
+                RowItem(title: "Text", caption: "A view that displays one or more lines of read-only text.")
             }
             NavigationLink(destination: TextFieldView(text: .constant(""))) {
-                VStack(alignment: .leading) {
-                    Text("TextField")
-                    Text("A control that displays an editable text interface.")
-                        .font(.caption)
-                }
+                RowItem(title: "TextField", caption: "A control that displays an editable text interface.")
             }
             NavigationLink(destination: SecureFieldView()) {
-                VStack(alignment: .leading) {
-                    Text("SecureField")
-                    Text("A control into which the user securely enters private text.")
-                        .font(.caption)
-                }
+                RowItem(title: "SecureField", caption: "A control into which the user securely enters private text.")
             }
             NavigationLink(destination: FontView()) {
-                VStack(alignment: .leading) {
-                    Text("Font")
-                    Text("An environment-dependent font.")
-                        .font(.caption)
-                }
+                RowItem(title: "Font", caption: "An environment-dependent font.")
             }
         }
     }

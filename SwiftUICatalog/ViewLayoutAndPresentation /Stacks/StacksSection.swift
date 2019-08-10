@@ -12,25 +12,13 @@ struct StacksSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: HStackView()) {
-                VStack(alignment: .leading) {
-                    Text("HStack")
-                    Text("A view that arranges its children in a horizontal line.")
-                        .font(.caption)
-                }
+                RowItem(title: "HStack", caption: "A view that arranges its children in a horizontal line.")
             }
             NavigationLink(destination: VStackView()) {
-                VStack(alignment: .leading) {
-                    Text("VStack")
-                    Text("A view that arranges its children in a vertical line.")
-                        .font(.caption)
-                }
+                RowItem(title: "VStack", caption: "A view that arranges its children in a vertical line.")
             }
             NavigationLink(destination: ZStackView()) {
-                VStack(alignment: .leading) {
-                    Text("ZStack")
-                    Text("A view that overlays its children, aligning them in both axes.")
-                        .font(.caption)
-                }
+                RowItem(title: "ZStack", caption: "A view that overlays its children, aligning them in both axes.")
             }
         }
     }

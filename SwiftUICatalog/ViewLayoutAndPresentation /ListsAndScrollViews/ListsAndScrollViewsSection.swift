@@ -12,25 +12,13 @@ struct ListsAndScrollViewsSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: ListView()) {
-                VStack(alignment: .leading) {
-                    Text("List")
-                    Text("A container that presents rows of data arranged in a single column.")
-                        .font(.caption)
-                }
+                RowItem(title: "List", caption: "A container that presents rows of data arranged in a single column.")
             }
             NavigationLink(destination: ForEachView()) {
-                VStack(alignment: .leading) {
-                    Text("ForEach")
-                    Text("A structure that computes views on demand from an underlying collection of of identified data.")
-                        .font(.caption)
-                }
+                RowItem(title: "ForEach", caption: "A structure that computes views on demand from an underlying collection of of identified data.")
             }
             NavigationLink(destination: ScrollViewView()) {
-                VStack(alignment: .leading) {
-                    Text("ScrollView")
-                    Text("A scroll view.")
-                        .font(.caption)
-                }
+                RowItem(title: "ScrollView", caption: "A scroll view.")
             }
         }
     }

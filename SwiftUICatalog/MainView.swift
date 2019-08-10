@@ -12,14 +12,23 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             List {
-                TextSection()
-                ImageSection()
-                ButtonSection()
-                ValueSelectorsSection()
-                StacksSection()
-                ListsAndScrollViewsSection()
-                ContainerViewsSection()
-                SpacersAndDividerSection()
+                Section {
+                    TextSection()
+                    ImageSection()
+                    ButtonSection()
+                    ValueSelectorsSection()
+                }
+                Section {
+                    StacksSection()
+                    ListsAndScrollViewsSection()
+                    ContainerViewsSection()
+                    SpacersAndDividerSection()
+                    ArchitecturalViewsSection()
+                    PresentaitonsSection()
+                    ConditionallyVisibleItemsSection()
+                    InfrequentlyUsedViewsSection()
+
+                }
             }
             .navigationBarTitle("SwiftUI Catalog")
         }

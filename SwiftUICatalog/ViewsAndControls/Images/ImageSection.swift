@@ -12,11 +12,7 @@ struct ImageSection: View {
     var body: some View {
         Section {
             NavigationLink(destination: ImageView()) {
-                VStack(alignment: .leading) {
-                    Text("Image")
-                    Text("A view that displays an environment-dependent image.")
-                        .font(.caption)
-                }
+                RowItem(title: "Image", caption: "A view that displays an environment-dependent image.")
             }
         }
     }
