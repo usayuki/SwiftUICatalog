@@ -32,6 +32,15 @@
 		238F7D0E22FEB45400822FD8 /* HSplitViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0D22FEB45400822FD8 /* HSplitViewView.swift */; };
 		238F7D1022FEB45B00822FD8 /* VSplitViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D0F22FEB45B00822FD8 /* VSplitViewView.swift */; };
 		238F7D1222FEB46800822FD8 /* ArchitecturalViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1122FEB46800822FD8 /* ArchitecturalViewsSection.swift */; };
+		238F7D1722FEB5B100822FD8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1622FEB5B100822FD8 /* AlertView.swift */; };
+		238F7D1922FEB5BF00822FD8 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1822FEB5BF00822FD8 /* ActionSheetView.swift */; };
+		238F7D1B22FEB5F700822FD8 /* EmptyViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1A22FEB5F700822FD8 /* EmptyViewView.swift */; };
+		238F7D1D22FEB60200822FD8 /* EquatableViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1C22FEB60200822FD8 /* EquatableViewView.swift */; };
+		238F7D1F22FEB61600822FD8 /* AnyViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D1E22FEB61600822FD8 /* AnyViewView.swift */; };
+		238F7D2122FEB61F00822FD8 /* TupleViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D2022FEB61F00822FD8 /* TupleViewView.swift */; };
+		238F7D2322FEB63E00822FD8 /* PresentaitonsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D2222FEB63E00822FD8 /* PresentaitonsSection.swift */; };
+		238F7D2522FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D2422FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift */; };
+		238F7D2722FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D2622FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift */; };
 		23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069122E3538A00B505B1 /* AppDelegate.swift */; };
 		23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069322E3538A00B505B1 /* SceneDelegate.swift */; };
 		23A1069622E3538A00B505B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069522E3538A00B505B1 /* MainView.swift */; };
@@ -81,6 +90,15 @@
 		238F7D0D22FEB45400822FD8 /* HSplitViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSplitViewView.swift; sourceTree = "<group>"; };
 		238F7D0F22FEB45B00822FD8 /* VSplitViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSplitViewView.swift; sourceTree = "<group>"; };
 		238F7D1122FEB46800822FD8 /* ArchitecturalViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitecturalViewsSection.swift; sourceTree = "<group>"; };
+		238F7D1622FEB5B100822FD8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		238F7D1822FEB5BF00822FD8 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		238F7D1A22FEB5F700822FD8 /* EmptyViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewView.swift; sourceTree = "<group>"; };
+		238F7D1C22FEB60200822FD8 /* EquatableViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViewView.swift; sourceTree = "<group>"; };
+		238F7D1E22FEB61600822FD8 /* AnyViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewView.swift; sourceTree = "<group>"; };
+		238F7D2022FEB61F00822FD8 /* TupleViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleViewView.swift; sourceTree = "<group>"; };
+		238F7D2222FEB63E00822FD8 /* PresentaitonsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentaitonsSection.swift; sourceTree = "<group>"; };
+		238F7D2422FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionallyVisibleItemsSection.swift; sourceTree = "<group>"; };
+		238F7D2622FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrequentlyUsedViewsSection.swift; sourceTree = "<group>"; };
 		23A1068E22E3538A00B505B1 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1069122E3538A00B505B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1069322E3538A00B505B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +154,9 @@
 				238F7CF022FEB10100822FD8 /* ContainerViews */,
 				238F7CFB22FEB28700822FD8 /* SpacersAndDividers */,
 				238F7D0422FEB3F500822FD8 /* ArchitecturalViews  */,
+				238F7D1322FEB56700822FD8 /* Presentaions */,
+				238F7D1422FEB57400822FD8 /* ConditionallyVisibleItems */,
+				238F7D1522FEB59100822FD8 /* InfrequentlyUsedViews  */,
 			);
 			path = "ViewLayoutAndPresentation ";
 			sourceTree = "<group>";
@@ -183,6 +204,36 @@
 				238F7D0F22FEB45B00822FD8 /* VSplitViewView.swift */,
 			);
 			path = "ArchitecturalViews ";
+			sourceTree = "<group>";
+		};
+		238F7D1322FEB56700822FD8 /* Presentaions */ = {
+			isa = PBXGroup;
+			children = (
+				238F7D1822FEB5BF00822FD8 /* ActionSheetView.swift */,
+				238F7D1622FEB5B100822FD8 /* AlertView.swift */,
+				238F7D2222FEB63E00822FD8 /* PresentaitonsSection.swift */,
+			);
+			path = Presentaions;
+			sourceTree = "<group>";
+		};
+		238F7D1422FEB57400822FD8 /* ConditionallyVisibleItems */ = {
+			isa = PBXGroup;
+			children = (
+				238F7D2422FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift */,
+				238F7D1A22FEB5F700822FD8 /* EmptyViewView.swift */,
+				238F7D1C22FEB60200822FD8 /* EquatableViewView.swift */,
+			);
+			path = ConditionallyVisibleItems;
+			sourceTree = "<group>";
+		};
+		238F7D1522FEB59100822FD8 /* InfrequentlyUsedViews  */ = {
+			isa = PBXGroup;
+			children = (
+				238F7D1E22FEB61600822FD8 /* AnyViewView.swift */,
+				238F7D2622FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift */,
+				238F7D2022FEB61F00822FD8 /* TupleViewView.swift */,
+			);
+			path = "InfrequentlyUsedViews ";
 			sourceTree = "<group>";
 		};
 		23A1068522E3538900B505B1 = {
@@ -358,6 +409,7 @@
 				23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */,
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
 				23B1F09E22F9B99C0041669F /* PasteButtonView.swift in Sources */,
+				238F7D1922FEB5BF00822FD8 /* ActionSheetView.swift in Sources */,
 				238F7CEF22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift in Sources */,
 				238F7CE222FEADA000822FD8 /* HStackView.swift in Sources */,
 				238F7CE022FEAD9400822FD8 /* StacksSection.swift in Sources */,
@@ -372,15 +424,20 @@
 				238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */,
 				238F7CEB22FEAF5D00822FD8 /* ForEachView.swift in Sources */,
 				238F7CF622FEB14700822FD8 /* GroupBoxView.swift in Sources */,
+				238F7D2322FEB63E00822FD8 /* PresentaitonsSection.swift in Sources */,
 				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
+				238F7D1D22FEB60200822FD8 /* EquatableViewView.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				23B1F0A722FE68240041669F /* PickerView.swift in Sources */,
 				238F7CF222FEB12000822FD8 /* FormView.swift in Sources */,
 				238F7CFF22FEB2CC00822FD8 /* SpacerView.swift in Sources */,
 				238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */,
 				235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */,
+				238F7D2122FEB61F00822FD8 /* TupleViewView.swift in Sources */,
+				238F7D1722FEB5B100822FD8 /* AlertView.swift in Sources */,
 				238F7D0E22FEB45400822FD8 /* HSplitViewView.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
+				238F7D1B22FEB5F700822FD8 /* EmptyViewView.swift in Sources */,
 				238F7CE922FEAF5200822FD8 /* ListView.swift in Sources */,
 				235C117D22FEA59500DAB5AF /* TextSection.swift in Sources */,
 				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
@@ -392,11 +449,14 @@
 				238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */,
 				238F7D0822FEB42400822FD8 /* TabViewView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
+				238F7D1F22FEB61600822FD8 /* AnyViewView.swift in Sources */,
 				238F7D0322FEB2E600822FD8 /* SpacersAndDividerSection.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
+				238F7D2722FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift in Sources */,
 				238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */,
 				238F7CED22FEAF6700822FD8 /* ScrollViewView.swift in Sources */,
 				23B1F09522F9B94B0041669F /* FontView.swift in Sources */,
+				238F7D2522FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
