@@ -19,6 +19,11 @@
 		238F7CEB22FEAF5D00822FD8 /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CEA22FEAF5D00822FD8 /* ForEachView.swift */; };
 		238F7CED22FEAF6700822FD8 /* ScrollViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CEC22FEAF6700822FD8 /* ScrollViewView.swift */; };
 		238F7CEF22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CEE22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift */; };
+		238F7CF222FEB12000822FD8 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF122FEB12000822FD8 /* FormView.swift */; };
+		238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF322FEB13D00822FD8 /* GroupView.swift */; };
+		238F7CF622FEB14700822FD8 /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF522FEB14700822FD8 /* GroupBoxView.swift */; };
+		238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF722FEB15100822FD8 /* SectionView.swift */; };
+		238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF922FEB15C00822FD8 /* ContainerViewsSection.swift */; };
 		23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069122E3538A00B505B1 /* AppDelegate.swift */; };
 		23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069322E3538A00B505B1 /* SceneDelegate.swift */; };
 		23A1069622E3538A00B505B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069522E3538A00B505B1 /* MainView.swift */; };
@@ -55,6 +60,11 @@
 		238F7CEA22FEAF5D00822FD8 /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		238F7CEC22FEAF6700822FD8 /* ScrollViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView.swift; sourceTree = "<group>"; };
 		238F7CEE22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsAndScrollViewsSection.swift; sourceTree = "<group>"; };
+		238F7CF122FEB12000822FD8 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		238F7CF322FEB13D00822FD8 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		238F7CF522FEB14700822FD8 /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
+		238F7CF722FEB15100822FD8 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		238F7CF922FEB15C00822FD8 /* ContainerViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewsSection.swift; sourceTree = "<group>"; };
 		23A1068E22E3538A00B505B1 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1069122E3538A00B505B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1069322E3538A00B505B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +117,7 @@
 			children = (
 				238F7CDD22FEAD3A00822FD8 /* Stacks */,
 				238F7CE722FEAF2300822FD8 /* ListsAndScrollViews */,
+				238F7CF022FEB10100822FD8 /* ContainerViews */,
 			);
 			path = "ViewLayoutAndPresentation ";
 			sourceTree = "<group>";
@@ -120,6 +131,18 @@
 				238F7CEC22FEAF6700822FD8 /* ScrollViewView.swift */,
 			);
 			path = ListsAndScrollViews;
+			sourceTree = "<group>";
+		};
+		238F7CF022FEB10100822FD8 /* ContainerViews */ = {
+			isa = PBXGroup;
+			children = (
+				238F7CF922FEB15C00822FD8 /* ContainerViewsSection.swift */,
+				238F7CF122FEB12000822FD8 /* FormView.swift */,
+				238F7CF522FEB14700822FD8 /* GroupBoxView.swift */,
+				238F7CF322FEB13D00822FD8 /* GroupView.swift */,
+				238F7CF722FEB15100822FD8 /* SectionView.swift */,
+			);
+			path = ContainerViews;
 			sourceTree = "<group>";
 		};
 		23A1068522E3538900B505B1 = {
@@ -304,10 +327,14 @@
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
 				23B1F09022F9B9180041669F /* TextView.swift in Sources */,
 				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
+				238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */,
 				238F7CEB22FEAF5D00822FD8 /* ForEachView.swift in Sources */,
+				238F7CF622FEB14700822FD8 /* GroupBoxView.swift in Sources */,
 				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				23B1F0A722FE68240041669F /* PickerView.swift in Sources */,
+				238F7CF222FEB12000822FD8 /* FormView.swift in Sources */,
+				238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */,
 				235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
 				238F7CE922FEAF5200822FD8 /* ListView.swift in Sources */,
@@ -316,6 +343,7 @@
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
 				235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
+				238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
 				238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */,

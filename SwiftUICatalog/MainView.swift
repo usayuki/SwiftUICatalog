@@ -18,6 +18,7 @@ struct MainView: View {
                 ValueSelectorsSection()
                 StacksSection()
                 ListsAndScrollViewsSection()
+                ContainerViewsSection()
             }
             .navigationBarTitle("SwiftUI Catalog")
         }
