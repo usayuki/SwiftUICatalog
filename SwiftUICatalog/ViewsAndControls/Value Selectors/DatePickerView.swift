@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct DatePickerView: View {
+    @State var selection: Date = Date()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        DatePicker("Date Picker", selection: $selection)
+            .labelsHidden()
     }
 }
 
 #if DEBUG
 struct DatePickerView_Previews: PreviewProvider {
+    @State var selection: Date = Date()
+
     static var previews: some View {
         DatePickerView()
     }

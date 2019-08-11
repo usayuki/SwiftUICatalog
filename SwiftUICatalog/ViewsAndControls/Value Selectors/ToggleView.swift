@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct ToggleView: View {
+    @State var isOn = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Toggle("Toggle", isOn: $isOn).labelsHidden()
     }
 }
 

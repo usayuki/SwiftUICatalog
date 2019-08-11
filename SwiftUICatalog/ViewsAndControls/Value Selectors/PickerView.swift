@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct PickerView: View {
+    @State var selection = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Picker(selection: $selection, label: EmptyView()) {
+            Text("A")
+            Text("B")
+            Text("C")
+        }.labelsHidden()
     }
 }
 

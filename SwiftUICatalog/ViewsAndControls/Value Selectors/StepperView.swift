@@ -9,8 +9,12 @@
 import SwiftUI
 
 struct StepperView: View {
+    @State var value: Int = 50
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Stepper(value: $value, in: 0...100) {
+            Text("\(value)")
+        }.fixedSize()
     }
 }
 
