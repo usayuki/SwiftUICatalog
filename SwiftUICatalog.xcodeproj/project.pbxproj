@@ -53,10 +53,8 @@
 		23B1F09522F9B94B0041669F /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09222F9B94B0041669F /* FontView.swift */; };
 		23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09322F9B94B0041669F /* SecureFieldView.swift */; };
 		23B1F09822F9B9880041669F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09722F9B9880041669F /* ImageView.swift */; };
-		23B1F09E22F9B99C0041669F /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09922F9B99C0041669F /* PasteButtonView.swift */; };
 		23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09A22F9B99C0041669F /* NavigationLinkView.swift */; };
 		23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09B22F9B99C0041669F /* ButtonView.swift */; };
-		23B1F0A122F9B99D0041669F /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09C22F9B99C0041669F /* MenuButtonView.swift */; };
 		23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F09D22F9B99C0041669F /* EditButtonView.swift */; };
 		23B1F0A522FE68190041669F /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A422FE68190041669F /* ToggleView.swift */; };
 		23B1F0A722FE68240041669F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A622FE68240041669F /* PickerView.swift */; };
@@ -114,10 +112,8 @@
 		23B1F09222F9B94B0041669F /* FontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
 		23B1F09322F9B94B0041669F /* SecureFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
 		23B1F09722F9B9880041669F /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		23B1F09922F9B99C0041669F /* PasteButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteButtonView.swift; sourceTree = "<group>"; };
 		23B1F09A22F9B99C0041669F /* NavigationLinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		23B1F09B22F9B99C0041669F /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		23B1F09C22F9B99C0041669F /* MenuButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		23B1F09D22F9B99C0041669F /* EditButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
 		23B1F0A422FE68190041669F /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		23B1F0A622FE68240041669F /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
@@ -307,9 +303,7 @@
 				235C118022FEA60000DAB5AF /* ButtonSection.swift */,
 				23B1F09B22F9B99C0041669F /* ButtonView.swift */,
 				23B1F09D22F9B99C0041669F /* EditButtonView.swift */,
-				23B1F09C22F9B99C0041669F /* MenuButtonView.swift */,
 				23B1F09A22F9B99C0041669F /* NavigationLinkView.swift */,
-				23B1F09922F9B99C0041669F /* PasteButtonView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -411,12 +405,10 @@
 				235C118322FEA63F00DAB5AF /* ValueSelectorsSection.swift in Sources */,
 				23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */,
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
-				23B1F09E22F9B99C0041669F /* PasteButtonView.swift in Sources */,
 				238F7D1922FEB5BF00822FD8 /* ActionSheetView.swift in Sources */,
 				238F7CEF22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift in Sources */,
 				238F7CE222FEADA000822FD8 /* HStackView.swift in Sources */,
 				238F7CE022FEAD9400822FD8 /* StacksSection.swift in Sources */,
-				23B1F0A122F9B99D0041669F /* MenuButtonView.swift in Sources */,
 				23B1F0AD22FE68430041669F /* StepperView.swift in Sources */,
 				238F7CE422FEADAD00822FD8 /* VStackView.swift in Sources */,
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
