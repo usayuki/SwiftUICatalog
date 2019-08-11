@@ -17,14 +17,8 @@ struct ButtonSection: View {
             NavigationLink(destination: NavigationLinkView()) {
                 RowItem(title: "NavigationLink", caption: "A button that triggers a navigation presentation when pressed.")
             }
-            NavigationLink(destination: MenuButtonView()) {
-                RowItem(title: "MenuButton", caption: "A button that displays a menu containing a list of choices when pressed.")
-            }
             NavigationLink(destination: EditButtonView()) {
                 RowItem(title: "EditButton", caption: "A button that toggles the edit mode for the current edit scope.")
-            }
-            NavigationLink(destination: PasteButtonView()) {
-                RowItem(title: "PasteButton", caption: "A system button that triggers reading data from the pasteboard.")
             }
         }
     }
