@@ -9,8 +9,13 @@
 import SwiftUI
 
 struct SliderView: View {
+    @State var value = 50.0
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(Int(value))")
+            Slider(value: $value, in: 0...100, step: 1)
+        }
     }
 }
 
