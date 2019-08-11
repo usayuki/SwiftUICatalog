@@ -9,15 +9,21 @@
 import SwiftUI
 
 struct SecureFieldView: View {
+    @Binding var text: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        SecureField("place holder", text: $text)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .frame(width: 300)
     }
 }
 
 #if DEBUG
 struct SecureFieldView_Previews: PreviewProvider {
+    @State static var text = "input text"
+
     static var previews: some View {
-        SecureFieldView()
+        SecureFieldView(text: $text)
     }
 }
 #endif

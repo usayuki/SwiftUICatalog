@@ -12,13 +12,15 @@ struct TextFieldView: View {
     @Binding var text: String
     
     var body: some View {
-        TextField("aaa", text: $text)
+        TextField("place holder", text: $text)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .frame(width: 300)
     }
 }
 
 #if DEBUG
 struct TextFieldView_Previews: PreviewProvider {
-    @State static var text = "aaa"
+    @State static var text = "input text"
     
     static var previews: some View {
         TextFieldView(text: $text)
