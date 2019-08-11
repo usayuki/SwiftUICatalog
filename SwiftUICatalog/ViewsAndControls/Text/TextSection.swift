@@ -17,7 +17,7 @@ struct TextSection: View {
             NavigationLink(destination: TextFieldView(text: .constant(""))) {
                 RowItem(title: "TextField", caption: "A control that displays an editable text interface.")
             }
-            NavigationLink(destination: SecureFieldView()) {
+            NavigationLink(destination: SecureFieldView(text: .constant(""))) {
                 RowItem(title: "SecureField", caption: "A control into which the user securely enters private text.")
             }
             NavigationLink(destination: FontView()) {
