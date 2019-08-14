@@ -10,29 +10,11 @@ import SwiftUI
 
 struct TwitterView: View {
     var body: some View {
-        List {
-            TweetCell(
-                icon: UIImage(named: "lena")!,
-                userName: "lena",
-                userId: "@lena",
-                date: "1970/01/01",
-                message: "I am Lena."
-            )
-            TweetCell(
-                icon: UIImage(named: "lena")!,
-                userName: "lena",
-                userId: "@lena",
-                date: "1970/01/01",
-                message: "I am Lena."
-            )
-            TweetCell(
-                icon: UIImage(named: "lena")!,
-                userName: "lena",
-                userId: "@lena",
-                date: "1970/01/01",
-                message: "I am Lena."
-            )
+        List(tweetModels) { model in
+            TweetCell(model: model)
         }
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
     }
 }
 

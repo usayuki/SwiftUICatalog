@@ -9,35 +9,40 @@
 import SwiftUI
 
 struct TweetCell: View {
-    let icon: UIImage
-    let userName: String
-    let userId: String
-    let date: String
-    let message: String
+    let model: TweetModel
     
     var body: some View {
-        HStack {
-            Image(uiImage: icon)
+        HStack(alignment: .top) {
+            Image(uiImage: model.icon)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(Circle())
                 .frame(width: 100, height: 100, alignment: .leading)
                 .padding(5)
+                
             
             VStack(alignment: .leading) {
                 HStack {
-                    Text(userName)
-                    Text(userId)
-                    Text(date)
+                    Text(model.userName)
+                        .bold()
+                    Text(model.userId)
+                        .foregroundColor(.gray)
+                    Text("・")
+                        .foregroundColor(.gray)
+                    Text(model.date)
+                        .foregroundColor(.gray)
                 }
-                Text(message)
+                Text(model.message)
                 HStack {
-                    Button("a") { }
-                    Button("b") { }
-                    Button("c") { }
-                    Button("d") { }
-                }
-            }
+                    Button("💬") { }
+                    Spacer()
+                    Button("🔁") { }
+                    Spacer()
+                    Button("❤️") { }
+                    Spacer()
+                    Button("🔝") { }
+                }.padding(.top, 10)
+            }.padding(.top, 10)
         }
     }
 }
@@ -45,13 +50,13 @@ struct TweetCell: View {
 #if DEBUG
 struct TweetCell_Previews: PreviewProvider {
     static var previews: some View {
-        TweetCell(
+        TweetCell(model: .init(
             icon: UIImage(named: "lena")!,
             userName: "lena",
             userId: "@lena",
             date: "1970/01/01",
-            message: "I am Lena."
-        )
+            message: "I am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena."
+        ))
     }
 }
 #endif
