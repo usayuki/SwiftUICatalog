@@ -27,7 +27,11 @@ struct MainView: View {
                     PresentaitonsSection()
                     ConditionallyVisibleItemsSection()
                     InfrequentlyUsedViewsSection()
-
+                }
+                Section {
+                    NavigationLink(destination: TwitterView()) {
+                        RowItem(title: "Twitter Demo")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Catalog")
