@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct NavigationViewView: View {
+    @State var isShowing: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Button("show NavigationView") {
+            self.isShowing = true
+        }
+        .sheet(isPresented: $isShowing) {
+            NavigationView {
+                NavigationViewContentView()
+            }
+        }
+    }
+}
+
+struct NavigationViewContentView: View {
+    var body: some View {
+        NavigationLink("push", destination:  NavigationViewView())
     }
 }
 

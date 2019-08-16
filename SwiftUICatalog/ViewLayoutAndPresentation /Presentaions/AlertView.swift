@@ -9,8 +9,48 @@
 import SwiftUI
 
 struct AlertView: View {
+    @State var isSimpleAlertShowing: Bool = false
+    @State var isDismissAlertShowing: Bool = false
+    @State var isOkCancelAlertShowing: Bool = false
+    @State var isDestructiveAlertShowing: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center, spacing: 50) {
+            Button("show simple alert") {
+                self.isSimpleAlertShowing = true
+            }
+            .alert(isPresented: $isSimpleAlertShowing) {
+                Alert(title: Text("Title"))
+            }
+            Button("show dismiss alert") {
+                self.isDismissAlertShowing = true
+            }
+            .alert(isPresented: $isDismissAlertShowing) {
+                Alert(title: Text("Title"), message: Text("Message"), dismissButton: .default(Text("Dismiss")))
+            }
+            Button("show ok/cancel alert") {
+                self.isOkCancelAlertShowing = true
+            }
+            .alert(isPresented: $isOkCancelAlertShowing) {
+                Alert(
+                    title: Text("Title"),
+                    message: Text("Message"),
+                    primaryButton: .cancel(Text("Cancel")),
+                    secondaryButton: .default(Text("OK"))
+                )
+            }
+            Button("show destructive alert") {
+                self.isDestructiveAlertShowing = true
+            }
+            .alert(isPresented: $isDestructiveAlertShowing) {
+                Alert(
+                    title: Text("Title"),
+                    message: Text("Message"),
+                    primaryButton: .cancel(Text("Cancel")),
+                    secondaryButton: .destructive(Text("Destructive"))
+                )
+            }
+        }
     }
 }
 

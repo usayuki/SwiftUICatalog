@@ -10,7 +10,21 @@ import SwiftUI
 
 struct TabViewView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Text("Hello World!")
+                .tabItem {
+                    Image(systemName: "book")
+                    Text("book")
+                }
+            VStack {
+                Text("Hello World!")
+                Text("Hello World!")
+            }
+                .tabItem {
+                    Image(systemName: "icloud")
+                    Text("iCloud")
+                }
+        }
     }
 }
 

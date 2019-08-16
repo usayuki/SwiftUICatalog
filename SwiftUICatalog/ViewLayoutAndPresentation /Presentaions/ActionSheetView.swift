@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct ActionSheetView: View {
+    @State var isShowing: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Button("show action sheet") {
+            self.isShowing = true
+        }
+        .actionSheet(isPresented: $isShowing) {
+            ActionSheet(
+                title: Text("Title"),
+                message: Text("Message"),
+                buttons: [
+                    .default(Text("Default")),
+                    .destructive(Text("Destructive")),
+                    .cancel()
+            ])
+        }
     }
 }
 
