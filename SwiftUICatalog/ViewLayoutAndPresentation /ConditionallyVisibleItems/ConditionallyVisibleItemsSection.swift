@@ -14,9 +14,6 @@ struct ConditionallyVisibleItemsSection: View {
             NavigationLink(destination: EmptyViewView()) {
                 RowItem(title: "EmptyView")
             }
-            NavigationLink(destination: EquatableViewView()) {
-                RowItem(title: "EquatableView", caption: "A view type that compares itself against its previous value and prevents its child updating if its new value is the same as its old value.")
-            }
         }
     }
 }
