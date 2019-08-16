@@ -17,8 +17,11 @@ struct ListsAndScrollViewsSection: View {
             NavigationLink(destination: ForEachView()) {
                 RowItem(title: "ForEach", caption: "A structure that computes views on demand from an underlying collection of of identified data.")
             }
-            NavigationLink(destination: ScrollViewView()) {
-                RowItem(title: "ScrollView", caption: "A scroll view.")
+            NavigationLink(destination: VerticalScrollViewView()) {
+                RowItem(title: "ScrollView Vertical", caption: "A scroll view.")
+            }
+            NavigationLink(destination: HorizontalScrollViewView()) {
+                RowItem(title: "ScrollView Horizontal", caption: "A scroll view.")
             }
         }
     }

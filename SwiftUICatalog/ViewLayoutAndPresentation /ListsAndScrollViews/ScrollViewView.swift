@@ -8,16 +8,30 @@
 
 import SwiftUI
 
-struct ScrollViewView: View {
+struct VerticalScrollViewView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Text("Hello World!")
+            Text("Hello World!")
+            Text("Hello World!")
+        }
+    }
+}
+
+struct HorizontalScrollViewView: View {
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: true) {
+            Text("Hello World!")
+            Text("Hello World!")
+            Text("Hello World!")
+        }
     }
 }
 
 #if DEBUG
 struct ScrollViewView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrollViewView()
+        VerticalScrollViewView()
     }
 }
 #endif

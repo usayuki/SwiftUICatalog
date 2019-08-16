@@ -17,9 +17,6 @@ struct ContainerViewsSection: View {
             NavigationLink(destination: GroupView()) {
                 RowItem(title: "Group", caption: "An affordance for grouping view content.")
             }
-            NavigationLink(destination: GroupBoxView()) {
-                RowItem(title: "GroupBox", caption: "A stylized view with an optional label that is associated with a logical grouping of content.")
-            }
             NavigationLink(destination: SectionView()) {
                 RowItem(title: "Section", caption: "An affordance for creating hierarchical view content.")
             }

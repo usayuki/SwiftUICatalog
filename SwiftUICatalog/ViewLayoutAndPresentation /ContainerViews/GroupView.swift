@@ -10,7 +10,18 @@ import SwiftUI
 
 struct GroupView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            Group {
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+            }
+            Group {
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+            }
+        }
     }
 }
 

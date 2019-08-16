@@ -21,7 +21,6 @@
 		238F7CEF22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CEE22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift */; };
 		238F7CF222FEB12000822FD8 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF122FEB12000822FD8 /* FormView.swift */; };
 		238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF322FEB13D00822FD8 /* GroupView.swift */; };
-		238F7CF622FEB14700822FD8 /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF522FEB14700822FD8 /* GroupBoxView.swift */; };
 		238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF722FEB15100822FD8 /* SectionView.swift */; };
 		238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CF922FEB15C00822FD8 /* ContainerViewsSection.swift */; };
 		238F7CFF22FEB2CC00822FD8 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7CFE22FEB2CC00822FD8 /* SpacerView.swift */; };
@@ -81,7 +80,6 @@
 		238F7CEE22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsAndScrollViewsSection.swift; sourceTree = "<group>"; };
 		238F7CF122FEB12000822FD8 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		238F7CF322FEB13D00822FD8 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
-		238F7CF522FEB14700822FD8 /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
 		238F7CF722FEB15100822FD8 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		238F7CF922FEB15C00822FD8 /* ContainerViewsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewsSection.swift; sourceTree = "<group>"; };
 		238F7CFE22FEB2CC00822FD8 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
@@ -181,7 +179,6 @@
 			children = (
 				238F7CF922FEB15C00822FD8 /* ContainerViewsSection.swift */,
 				238F7CF122FEB12000822FD8 /* FormView.swift */,
-				238F7CF522FEB14700822FD8 /* GroupBoxView.swift */,
 				238F7CF322FEB13D00822FD8 /* GroupView.swift */,
 				238F7CF722FEB15100822FD8 /* SectionView.swift */,
 			);
@@ -436,7 +433,6 @@
 				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
 				238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */,
 				238F7CEB22FEAF5D00822FD8 /* ForEachView.swift in Sources */,
-				238F7CF622FEB14700822FD8 /* GroupBoxView.swift in Sources */,
 				238F7D2322FEB63E00822FD8 /* PresentaitonsSection.swift in Sources */,
 				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
 				238F7D1D22FEB60200822FD8 /* EquatableViewView.swift in Sources */,

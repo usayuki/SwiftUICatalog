@@ -12,9 +12,14 @@ struct TextFieldView: View {
     @Binding var text: String
     
     var body: some View {
-        TextField("place holder", text: $text)
-            .textFieldStyle(RoundedBorderTextFieldStyle())
-            .frame(width: 300)
+        VStack(alignment: .center, spacing: 50) {
+            TextField("Plain Text Field Style", text: $text)
+                .textFieldStyle(PlainTextFieldStyle())
+                .frame(width: 300)
+            TextField("Rounded Border Text Field Style", text: $text)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .frame(width: 300)
+        }
     }
 }
 
