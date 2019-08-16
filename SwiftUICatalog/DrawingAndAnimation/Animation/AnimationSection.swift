@@ -14,15 +14,6 @@ struct AnimationSection: View {
             NavigationLink(destination: AnimationView()) {
                 RowItem(title: "Animation", caption: "")
             }
-            NavigationLink(destination: AnimatablePairView()) {
-                RowItem(title: "AnimatablePair", caption: "A pair of animatable values, which is itself animatable.")
-            }
-            NavigationLink(destination: EmptyAnimatableDataView()) {
-                RowItem(title: "EmptyAnimatableData", caption: "An empty type for animatable data.")
-            }
-            NavigationLink(destination: AnyTransitionView()) {
-                RowItem(title: "AnyTransition", caption: "A type-erased transition.")
-            }
         }
     }
 }

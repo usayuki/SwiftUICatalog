@@ -10,7 +10,8 @@ import SwiftUI
 
 struct OffsetShapeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        OffsetShape(shape: Rectangle(), offset: CGSize(width: 10, height: 10))
+            .frame(width: 100, height: 100, alignment: .center)
     }
 }
 

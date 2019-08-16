@@ -10,7 +10,9 @@ import SwiftUI
 
 struct RadialGradientView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        RadialGradient(
+            gradient: Gradient(colors: [.red, .blue]),
+            center: UnitPoint(x: 1, y: 1), startRadius: 10, endRadius: 90)
     }
 }
 

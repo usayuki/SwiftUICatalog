@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct AnimationView: View {
+    @State var color: Color = .red
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center, spacing: 50) {
+            Circle()
+                .frame(width: 50, height: 50, alignment: .center)
+                .foregroundColor(color)
+                .animation(.easeInOut)
+            Button("Animation Start") {
+                self.color = self.color == .red ? .blue : .red
+            }
+        }
     }
 }
 

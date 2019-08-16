@@ -10,7 +10,11 @@ import SwiftUI
 
 struct AngularGradientView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        AngularGradient(
+            gradient: Gradient(colors: [.red, .blue]),
+            center: UnitPoint(x: 1, y: 1),
+            angle: .radians(10)
+        )
     }
 }
 

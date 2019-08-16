@@ -10,7 +10,11 @@ import SwiftUI
 
 struct LinearGradientView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        LinearGradient(
+            gradient: Gradient(colors: [.red, .blue]),
+            startPoint: UnitPoint(x: 1, y: 0),
+            endPoint: UnitPoint(x: 1, y: 1)
+        )
     }
 }
 

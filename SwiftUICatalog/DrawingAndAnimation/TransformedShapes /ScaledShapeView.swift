@@ -10,7 +10,8 @@ import SwiftUI
 
 struct ScaledShapeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        ScaledShape(shape: Rectangle(), scale: CGSize(width: 2, height: 2))
+            .frame(width: 100, height: 100, alignment: .center)
     }
 }
 

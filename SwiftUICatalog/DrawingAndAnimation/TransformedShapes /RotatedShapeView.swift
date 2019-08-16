@@ -10,7 +10,8 @@ import SwiftUI
 
 struct RotatedShapeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        RotatedShape(shape: Rectangle(), angle: .radians(5))
+            .frame(width: 100, height: 100, alignment: .center)
     }
 }
 

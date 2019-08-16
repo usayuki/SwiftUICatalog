@@ -33,7 +33,6 @@ struct MainView: View {
                     ShapesSection()
                     TransformedShapesSection()
                     PaintsStylesAndGradientsSection()
-                    GeometrySection()
                 }
                 Section(header: Text("Demo")) {
                     NavigationLink(destination: TwitterView()) {

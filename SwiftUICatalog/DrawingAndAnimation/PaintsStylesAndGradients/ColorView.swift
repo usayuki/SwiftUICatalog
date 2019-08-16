@@ -10,7 +10,23 @@ import SwiftUI
 
 struct ColorView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Color.black
+                Color.blue
+                Color.gray
+            }
+            HStack {
+                Color.green
+                Color.orange
+                Color.pink
+            }
+            HStack {
+                Color.purple
+                Color.red
+                Color.yellow
+            }
+        }
     }
 }
 
