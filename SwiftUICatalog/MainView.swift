@@ -12,13 +12,13 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             List {
-                Section {
+                Section(header: Text("Views and Controls")) {
                     TextSection()
                     ImageSection()
                     ButtonSection()
                     ValueSelectorsSection()
                 }
-                Section {
+                Section(header: Text("ViewLayout and Presentation")) {
                     StacksSection()
                     ListsAndScrollViewsSection()
                     ContainerViewsSection()
@@ -28,7 +28,14 @@ struct MainView: View {
                     ConditionallyVisibleItemsSection()
                     InfrequentlyUsedViewsSection()
                 }
-                Section {
+                Section(header: Text("Drawing and Animation")) {
+                    AnimationSection()
+                    ShapesSection()
+                    TransformedShapesSection()
+                    PaintsStylesAndGradientsSection()
+                    GeometrySection()
+                }
+                Section(header: Text("Demo")) {
                     NavigationLink(destination: TwitterView()) {
                         RowItem(title: "Twitter Demo")
                     }

@@ -61,6 +61,39 @@
 		23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A822FE682F0041669F /* DatePickerView.swift */; };
 		23B1F0AB22FE68380041669F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AA22FE68380041669F /* SliderView.swift */; };
 		23B1F0AD22FE68430041669F /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AC22FE68430041669F /* StepperView.swift */; };
+		586D129F23067C0900F303B4 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D129E23067C0900F303B4 /* AnimationView.swift */; };
+		586D12A123067C3000F303B4 /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A023067C3000F303B4 /* AnimatablePairView.swift */; };
+		586D12A323067C7700F303B4 /* EmptyAnimatableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A223067C7700F303B4 /* EmptyAnimatableDataView.swift */; };
+		586D12A523067C9A00F303B4 /* AnyTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A423067C9A00F303B4 /* AnyTransitionView.swift */; };
+		586D12A723067CC400F303B4 /* AnimationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A623067CC400F303B4 /* AnimationSection.swift */; };
+		586D12A923067DEB00F303B4 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A823067DEB00F303B4 /* RectangleView.swift */; };
+		586D12AB23067E0500F303B4 /* RoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12AA23067E0500F303B4 /* RoundedRectangleView.swift */; };
+		586D12AD23067E1D00F303B4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12AC23067E1D00F303B4 /* CircleView.swift */; };
+		586D12AF23067E3200F303B4 /* EllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12AE23067E3200F303B4 /* EllipseView.swift */; };
+		586D12B123067E4700F303B4 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B023067E4700F303B4 /* CapsuleView.swift */; };
+		586D12B323067E5900F303B4 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B223067E5900F303B4 /* PathView.swift */; };
+		586D12B523067E6A00F303B4 /* ShapesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B423067E6A00F303B4 /* ShapesSection.swift */; };
+		586D12B72306807F00F303B4 /* ScaledShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B62306807F00F303B4 /* ScaledShapeView.swift */; };
+		586D12B9230680AA00F303B4 /* RotatedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B8230680AA00F303B4 /* RotatedShapeView.swift */; };
+		586D12BB230680BD00F303B4 /* OffsetShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12BA230680BD00F303B4 /* OffsetShapeView.swift */; };
+		586D12BD230680D100F303B4 /* TransformedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12BC230680D100F303B4 /* TransformedShapeView.swift */; };
+		586D12BF230680ED00F303B4 /* TransformedShapesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12BE230680ED00F303B4 /* TransformedShapesSection.swift */; };
+		586D12C1230681D500F303B4 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C0230681D500F303B4 /* ColorView.swift */; };
+		586D12C3230681E900F303B4 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C2230681E900F303B4 /* ImagePaintView.swift */; };
+		586D12C52306820400F303B4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C42306820400F303B4 /* GradientView.swift */; };
+		586D12C72306821900F303B4 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C62306821900F303B4 /* LinearGradientView.swift */; };
+		586D12C92306823300F303B4 /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C82306823300F303B4 /* AngularGradientView.swift */; };
+		586D12CB2306824900F303B4 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12CA2306824900F303B4 /* RadialGradientView.swift */; };
+		586D12CD2306827800F303B4 /* FillStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12CC2306827800F303B4 /* FillStyleView.swift */; };
+		586D12CF2306829E00F303B4 /* StrokeStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12CE2306829E00F303B4 /* StrokeStyleView.swift */; };
+		586D12D1230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12D0230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift */; };
+		586D12D3230683E900F303B4 /* GeometryProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12D2230683E900F303B4 /* GeometryProxyView.swift */; };
+		586D12D5230683FB00F303B4 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12D4230683FB00F303B4 /* GeometryReaderView.swift */; };
+		586D12D72306840D00F303B4 /* AngleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12D62306840D00F303B4 /* AngleView.swift */; };
+		586D12D92306842100F303B4 /* AnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12D82306842100F303B4 /* AnchorView.swift */; };
+		586D12DB2306845200F303B4 /* UnitPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12DA2306845200F303B4 /* UnitPointView.swift */; };
+		586D12DD2306846600F303B4 /* ProjectionTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12DC2306846600F303B4 /* ProjectionTransformView.swift */; };
+		586D12DF2306847600F303B4 /* GeometrySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12DE2306847600F303B4 /* GeometrySection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +153,39 @@
 		23B1F0A822FE682F0041669F /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		23B1F0AA22FE68380041669F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		23B1F0AC22FE68430041669F /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		586D129E23067C0900F303B4 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/AnimationView.swift; sourceTree = "<group>"; };
+		586D12A023067C3000F303B4 /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatablePairView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/AnimatablePairView.swift; sourceTree = "<group>"; };
+		586D12A223067C7700F303B4 /* EmptyAnimatableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmptyAnimatableDataView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/EmptyAnimatableDataView.swift; sourceTree = "<group>"; };
+		586D12A423067C9A00F303B4 /* AnyTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnyTransitionView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/AnyTransitionView.swift; sourceTree = "<group>"; };
+		586D12A623067CC400F303B4 /* AnimationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/AnimationSection.swift; sourceTree = "<group>"; };
+		586D12A823067DEB00F303B4 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RectangleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/RectangleView.swift; sourceTree = "<group>"; };
+		586D12AA23067E0500F303B4 /* RoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedRectangleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/RoundedRectangleView.swift; sourceTree = "<group>"; };
+		586D12AC23067E1D00F303B4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/CircleView.swift; sourceTree = "<group>"; };
+		586D12AE23067E3200F303B4 /* EllipseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EllipseView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/EllipseView.swift; sourceTree = "<group>"; };
+		586D12B023067E4700F303B4 /* CapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CapsuleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/CapsuleView.swift; sourceTree = "<group>"; };
+		586D12B223067E5900F303B4 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PathView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/PathView.swift; sourceTree = "<group>"; };
+		586D12B423067E6A00F303B4 /* ShapesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShapesSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/ShapesSection.swift; sourceTree = "<group>"; };
+		586D12B62306807F00F303B4 /* ScaledShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScaledShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /ScaledShapeView.swift"; sourceTree = "<group>"; };
+		586D12B8230680AA00F303B4 /* RotatedShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RotatedShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /RotatedShapeView.swift"; sourceTree = "<group>"; };
+		586D12BA230680BD00F303B4 /* OffsetShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OffsetShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /OffsetShapeView.swift"; sourceTree = "<group>"; };
+		586D12BC230680D100F303B4 /* TransformedShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransformedShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /TransformedShapeView.swift"; sourceTree = "<group>"; };
+		586D12BE230680ED00F303B4 /* TransformedShapesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransformedShapesSection.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /TransformedShapesSection.swift"; sourceTree = "<group>"; };
+		586D12C0230681D500F303B4 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/ColorView.swift; sourceTree = "<group>"; };
+		586D12C2230681E900F303B4 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagePaintView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/ImagePaintView.swift; sourceTree = "<group>"; };
+		586D12C42306820400F303B4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/GradientView.swift; sourceTree = "<group>"; };
+		586D12C62306821900F303B4 /* LinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinearGradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/LinearGradientView.swift; sourceTree = "<group>"; };
+		586D12C82306823300F303B4 /* AngularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AngularGradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/AngularGradientView.swift; sourceTree = "<group>"; };
+		586D12CA2306824900F303B4 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadialGradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/RadialGradientView.swift; sourceTree = "<group>"; };
+		586D12CC2306827800F303B4 /* FillStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FillStyleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/FillStyleView.swift; sourceTree = "<group>"; };
+		586D12CE2306829E00F303B4 /* StrokeStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StrokeStyleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/StrokeStyleView.swift; sourceTree = "<group>"; };
+		586D12D0230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaintsStylesAndGradientsSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/PaintsStylesAndGradientsSection.swift; sourceTree = "<group>"; };
+		586D12D2230683E900F303B4 /* GeometryProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeometryProxyView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/GeometryProxyView.swift; sourceTree = "<group>"; };
+		586D12D4230683FB00F303B4 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeometryReaderView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/GeometryReaderView.swift; sourceTree = "<group>"; };
+		586D12D62306840D00F303B4 /* AngleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AngleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/AngleView.swift; sourceTree = "<group>"; };
+		586D12D82306842100F303B4 /* AnchorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnchorView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/AnchorView.swift; sourceTree = "<group>"; };
+		586D12DA2306845200F303B4 /* UnitPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnitPointView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/UnitPointView.swift; sourceTree = "<group>"; };
+		586D12DC2306846600F303B4 /* ProjectionTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectionTransformView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/ProjectionTransformView.swift; sourceTree = "<group>"; };
+		586D12DE2306847600F303B4 /* GeometrySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeometrySection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Geometry/GeometrySection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +328,7 @@
 			children = (
 				58AE7BBB22F00075009A56AB /* ViewsAndControls */,
 				238F7CDE22FEAD6000822FD8 /* ViewLayoutAndPresentation  */,
+				586D129823067AF100F303B4 /* DrawingAndAnimation */,
 				238F7D2C230372DD00822FD8 /* TwitterUI */,
 				238F7D2A22FEFC6900822FD8 /* RowItem.swift */,
 				23A1069122E3538A00B505B1 /* AppDelegate.swift */,
@@ -314,6 +381,86 @@
 				23B1F09A22F9B99C0041669F /* NavigationLinkView.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		586D129823067AF100F303B4 /* DrawingAndAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				586D129923067B6B00F303B4 /* Animation */,
+				586D129A23067B8100F303B4 /* Shapes */,
+				586D129B23067B9800F303B4 /* TransformedShapes  */,
+				586D129C23067BBC00F303B4 /* PaintsStylesAndGradients */,
+				586D129D23067BD900F303B4 /* Geometry */,
+			);
+			path = DrawingAndAnimation;
+			sourceTree = "<group>";
+		};
+		586D129923067B6B00F303B4 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				586D129E23067C0900F303B4 /* AnimationView.swift */,
+				586D12A023067C3000F303B4 /* AnimatablePairView.swift */,
+				586D12A223067C7700F303B4 /* EmptyAnimatableDataView.swift */,
+				586D12A423067C9A00F303B4 /* AnyTransitionView.swift */,
+				586D12A623067CC400F303B4 /* AnimationSection.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		586D129A23067B8100F303B4 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				586D12A823067DEB00F303B4 /* RectangleView.swift */,
+				586D12AA23067E0500F303B4 /* RoundedRectangleView.swift */,
+				586D12AC23067E1D00F303B4 /* CircleView.swift */,
+				586D12AE23067E3200F303B4 /* EllipseView.swift */,
+				586D12B023067E4700F303B4 /* CapsuleView.swift */,
+				586D12B223067E5900F303B4 /* PathView.swift */,
+				586D12B423067E6A00F303B4 /* ShapesSection.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		586D129B23067B9800F303B4 /* TransformedShapes  */ = {
+			isa = PBXGroup;
+			children = (
+				586D12B62306807F00F303B4 /* ScaledShapeView.swift */,
+				586D12B8230680AA00F303B4 /* RotatedShapeView.swift */,
+				586D12BA230680BD00F303B4 /* OffsetShapeView.swift */,
+				586D12BC230680D100F303B4 /* TransformedShapeView.swift */,
+				586D12BE230680ED00F303B4 /* TransformedShapesSection.swift */,
+			);
+			path = "TransformedShapes ";
+			sourceTree = "<group>";
+		};
+		586D129C23067BBC00F303B4 /* PaintsStylesAndGradients */ = {
+			isa = PBXGroup;
+			children = (
+				586D12C0230681D500F303B4 /* ColorView.swift */,
+				586D12C2230681E900F303B4 /* ImagePaintView.swift */,
+				586D12C42306820400F303B4 /* GradientView.swift */,
+				586D12C62306821900F303B4 /* LinearGradientView.swift */,
+				586D12C82306823300F303B4 /* AngularGradientView.swift */,
+				586D12CA2306824900F303B4 /* RadialGradientView.swift */,
+				586D12CC2306827800F303B4 /* FillStyleView.swift */,
+				586D12CE2306829E00F303B4 /* StrokeStyleView.swift */,
+				586D12D0230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift */,
+			);
+			path = PaintsStylesAndGradients;
+			sourceTree = "<group>";
+		};
+		586D129D23067BD900F303B4 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				586D12D2230683E900F303B4 /* GeometryProxyView.swift */,
+				586D12D4230683FB00F303B4 /* GeometryReaderView.swift */,
+				586D12D62306840D00F303B4 /* AngleView.swift */,
+				586D12D82306842100F303B4 /* AnchorView.swift */,
+				586D12DA2306845200F303B4 /* UnitPointView.swift */,
+				586D12DC2306846600F303B4 /* ProjectionTransformView.swift */,
+				586D12DE2306847600F303B4 /* GeometrySection.swift */,
+			);
+			path = Geometry;
 			sourceTree = "<group>";
 		};
 		58AE7BBB22F00075009A56AB /* ViewsAndControls */ = {
@@ -412,14 +559,19 @@
 			files = (
 				235C118322FEA63F00DAB5AF /* ValueSelectorsSection.swift in Sources */,
 				23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */,
+				586D12B523067E6A00F303B4 /* ShapesSection.swift in Sources */,
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
 				238F7D1922FEB5BF00822FD8 /* ActionSheetView.swift in Sources */,
 				238F7CEF22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift in Sources */,
+				586D12A123067C3000F303B4 /* AnimatablePairView.swift in Sources */,
 				238F7CE222FEADA000822FD8 /* HStackView.swift in Sources */,
+				586D12B72306807F00F303B4 /* ScaledShapeView.swift in Sources */,
 				238F7D2E230373AE00822FD8 /* TwitterView.swift in Sources */,
 				238F7CE022FEAD9400822FD8 /* StacksSection.swift in Sources */,
 				23B1F0AD22FE68430041669F /* StepperView.swift in Sources */,
 				238F7CE422FEADAD00822FD8 /* VStackView.swift in Sources */,
+				586D12BD230680D100F303B4 /* TransformedShapeView.swift in Sources */,
+				586D12A923067DEB00F303B4 /* RectangleView.swift in Sources */,
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
 				238F7D0622FEB41700822FD8 /* NavigationViewView.swift in Sources */,
 				238F7D1222FEB46800822FD8 /* ArchitecturalViewsSection.swift in Sources */,
@@ -427,38 +579,66 @@
 				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
 				238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */,
 				238F7CEB22FEAF5D00822FD8 /* ForEachView.swift in Sources */,
+				586D129F23067C0900F303B4 /* AnimationView.swift in Sources */,
 				238F7D2322FEB63E00822FD8 /* PresentaitonsSection.swift in Sources */,
+				586D12B123067E4700F303B4 /* CapsuleView.swift in Sources */,
 				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
+				586D12D92306842100F303B4 /* AnchorView.swift in Sources */,
 				238F7D1D22FEB60200822FD8 /* EquatableViewView.swift in Sources */,
+				586D12A723067CC400F303B4 /* AnimationSection.swift in Sources */,
+				586D12DD2306846600F303B4 /* ProjectionTransformView.swift in Sources */,
+				586D12D72306840D00F303B4 /* AngleView.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
 				23B1F0A722FE68240041669F /* PickerView.swift in Sources */,
 				238F7CF222FEB12000822FD8 /* FormView.swift in Sources */,
 				238F7CFF22FEB2CC00822FD8 /* SpacerView.swift in Sources */,
 				238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */,
+				586D12D3230683E900F303B4 /* GeometryProxyView.swift in Sources */,
+				586D12CB2306824900F303B4 /* RadialGradientView.swift in Sources */,
 				235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */,
 				238F7D2122FEB61F00822FD8 /* TupleViewView.swift in Sources */,
 				238F7D1722FEB5B100822FD8 /* AlertView.swift in Sources */,
+				586D12A523067C9A00F303B4 /* AnyTransitionView.swift in Sources */,
+				586D12AF23067E3200F303B4 /* EllipseView.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
+				586D12BF230680ED00F303B4 /* TransformedShapesSection.swift in Sources */,
 				238F7D1B22FEB5F700822FD8 /* EmptyViewView.swift in Sources */,
 				238F7CE922FEAF5200822FD8 /* ListView.swift in Sources */,
+				586D12B9230680AA00F303B4 /* RotatedShapeView.swift in Sources */,
+				586D12CF2306829E00F303B4 /* StrokeStyleView.swift in Sources */,
+				586D12D5230683FB00F303B4 /* GeometryReaderView.swift in Sources */,
+				586D12BB230680BD00F303B4 /* OffsetShapeView.swift in Sources */,
 				238F7D342304C0A400822FD8 /* TweetModel.swift in Sources */,
+				586D12B323067E5900F303B4 /* PathView.swift in Sources */,
 				235C117D22FEA59500DAB5AF /* TextSection.swift in Sources */,
+				586D12C72306821900F303B4 /* LinearGradientView.swift in Sources */,
 				238F7D2B22FEFC6900822FD8 /* RowItem.swift in Sources */,
+				586D12C1230681D500F303B4 /* ColorView.swift in Sources */,
+				586D12D1230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift in Sources */,
 				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
+				586D12C92306823300F303B4 /* AngularGradientView.swift in Sources */,
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
+				586D12C52306820400F303B4 /* GradientView.swift in Sources */,
 				235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */,
 				238F7D0122FEB2D700822FD8 /* DividerView.swift in Sources */,
+				586D12DB2306845200F303B4 /* UnitPointView.swift in Sources */,
+				586D12DF2306847600F303B4 /* GeometrySection.swift in Sources */,
+				586D12CD2306827800F303B4 /* FillStyleView.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
 				238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */,
 				238F7D0822FEB42400822FD8 /* TabViewView.swift in Sources */,
+				586D12AB23067E0500F303B4 /* RoundedRectangleView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
 				238F7D1F22FEB61600822FD8 /* AnyViewView.swift in Sources */,
 				238F7D0322FEB2E600822FD8 /* SpacersAndDividerSection.swift in Sources */,
+				586D12AD23067E1D00F303B4 /* CircleView.swift in Sources */,
+				586D12A323067C7700F303B4 /* EmptyAnimatableDataView.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
 				238F7D2722FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift in Sources */,
 				238F7D32230373E000822FD8 /* TweetCell.swift in Sources */,
 				238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */,
 				238F7CED22FEAF6700822FD8 /* ScrollViewView.swift in Sources */,
+				586D12C3230681E900F303B4 /* ImagePaintView.swift in Sources */,
 				23B1F09522F9B94B0041669F /* FontView.swift in Sources */,
 				238F7D2522FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift in Sources */,
 			);
