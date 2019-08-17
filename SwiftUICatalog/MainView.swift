@@ -39,6 +39,9 @@ struct MainView: View {
                     CombinedGesturesSection()
                 }
                 Section(header: Text("Combinations")) {
+                    NavigationLink(destination: SettingsView()) {
+                        RowItem(title: "Settings Demo", caption: "Example for settings.")
+                    }
                     NavigationLink(destination: TwitterView()) {
                         RowItem(title: "Twitter Demo", caption: "Reproduce view of Twitter timeline.")
                     }
