@@ -10,11 +10,23 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        List {
-            Text("Hello World!")
-            Text("Hello World!")
-            Text("Hello World!")
-            Text("Hello World!")
+        VStack {
+            List {
+                Section(header: Text("plane")) {
+                    Text("Hello World!")
+                    Text("Hello World!")
+                    Text("Hello World!")
+                    Text("Hello World!")
+                }
+            }
+            List {
+                Section(header: Text("grouped")) {
+                    Text("Hello World!")
+                    Text("Hello World!")
+                    Text("Hello World!")
+                    Text("Hello World!")
+                }
+            }.listStyle(GroupedListStyle())
         }
     }
 }

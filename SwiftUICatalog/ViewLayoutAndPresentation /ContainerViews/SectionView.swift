@@ -10,10 +10,12 @@ import SwiftUI
 
 struct SectionView: View {
     var body: some View {
-        Section(header: Text("Header"), footer: Text("Footer")) {
-            Text("Hello World!")
-            Text("Hello World!")
-            Text("Hello World!")
+        List {
+            Section(header: Text("Header"), footer: Text("Footer")) {
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+            }
         }
     }
 }
