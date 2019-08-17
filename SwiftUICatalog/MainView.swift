@@ -38,9 +38,9 @@ struct MainView: View {
                     BasicGesturesSection()
                     CombinedGesturesSection()
                 }
-                Section(header: Text("Demo")) {
+                Section(header: Text("Combinations")) {
                     NavigationLink(destination: TwitterView()) {
-                        RowItem(title: "Twitter Demo")
+                        RowItem(title: "Twitter Demo", caption: "Reproduce view of Twitter timeline.")
                     }
                 }
             }

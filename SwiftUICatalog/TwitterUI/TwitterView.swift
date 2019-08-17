@@ -14,7 +14,6 @@ struct TwitterView: View {
             TweetCell(model: model)
         }
         .navigationBarTitle("")
-        .navigationBarHidden(true)
     }
 }
 
