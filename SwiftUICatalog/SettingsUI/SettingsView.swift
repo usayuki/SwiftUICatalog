@@ -15,35 +15,33 @@ struct SettingsView: View {
     @State var isOnSendUserData = false
 
     var body: some View {
-        VStack {
-            List {
-                Section(header: Text("General")) {
-                    HStack {
-                        Text("Notification")
-                        Spacer()
-                        Toggle("", isOn: $isOnNotification)
-                    }
-                    VStack {
-                        HStack {
-                            Text("Sound")
-                            Spacer()
-                            Toggle("", isOn: $isOnSound)
-                        }
-                        Slider(value: $soundValue)
-                            .disabled(!isOnSound)
-                    }
+        Form {
+            Section(header: Text("General")) {
+                HStack {
+                    Text("Notification")
+                    Spacer()
+                    Toggle("", isOn: $isOnNotification)
                 }
-                Section(header: Text("Privacy")) {
-                    VStack(alignment: .leading) {
-                        HStack {
-                            Text("Send User Data")
-                            Spacer()
-                            Toggle("", isOn: $isOnSendUserData)
-                        }
-                        Text("Turn on to allow sending of personal information.")
-                            .font(.caption)
-                            .foregroundColor(.gray)
+                VStack {
+                    HStack {
+                        Text("Sound")
+                        Spacer()
+                        Toggle("", isOn: $isOnSound)
                     }
+                    Slider(value: $soundValue)
+                        .disabled(!isOnSound)
+                }
+            }
+            Section(header: Text("Privacy")) {
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("Send User Data")
+                        Spacer()
+                        Toggle("", isOn: $isOnSendUserData)
+                    }
+                    Text("Turn on to allow sending of personal information.")
+                        .font(.caption)
+                        .foregroundColor(.gray)
                 }
             }
         }
