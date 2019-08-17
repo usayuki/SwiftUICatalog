@@ -41,6 +41,37 @@
 		238F7D2E230373AE00822FD8 /* TwitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D2D230373AE00822FD8 /* TwitterView.swift */; };
 		238F7D32230373E000822FD8 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D31230373E000822FD8 /* TweetCell.swift */; };
 		238F7D342304C0A400822FD8 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D332304C0A400822FD8 /* TweetModel.swift */; };
+		238F7D372308133D00822FD8 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D352308133D00822FD8 /* AnimationView.swift */; };
+		238F7D382308133D00822FD8 /* AnimationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D362308133D00822FD8 /* AnimationSection.swift */; };
+		238F7D402308135500822FD8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D392308135400822FD8 /* CircleView.swift */; };
+		238F7D412308135500822FD8 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D3A2308135400822FD8 /* PathView.swift */; };
+		238F7D422308135500822FD8 /* EllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D3B2308135400822FD8 /* EllipseView.swift */; };
+		238F7D432308135500822FD8 /* ShapesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D3C2308135400822FD8 /* ShapesSection.swift */; };
+		238F7D442308135500822FD8 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D3D2308135500822FD8 /* RectangleView.swift */; };
+		238F7D452308135500822FD8 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D3E2308135500822FD8 /* CapsuleView.swift */; };
+		238F7D462308135500822FD8 /* RoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D3F2308135500822FD8 /* RoundedRectangleView.swift */; };
+		238F7D4C2308176200822FD8 /* RotatedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D472308176200822FD8 /* RotatedShapeView.swift */; };
+		238F7D4D2308176200822FD8 /* TransformedShapesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D482308176200822FD8 /* TransformedShapesSection.swift */; };
+		238F7D4E2308176200822FD8 /* OffsetShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D492308176200822FD8 /* OffsetShapeView.swift */; };
+		238F7D4F2308176200822FD8 /* ScaledShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D4A2308176200822FD8 /* ScaledShapeView.swift */; };
+		238F7D502308176200822FD8 /* TransformedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D4B2308176200822FD8 /* TransformedShapeView.swift */; };
+		238F7D572308178300822FD8 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D512308178300822FD8 /* RadialGradientView.swift */; };
+		238F7D582308178300822FD8 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D522308178300822FD8 /* ImagePaintView.swift */; };
+		238F7D592308178300822FD8 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D532308178300822FD8 /* ColorView.swift */; };
+		238F7D5A2308178300822FD8 /* PaintsStylesAndGradientsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D542308178300822FD8 /* PaintsStylesAndGradientsSection.swift */; };
+		238F7D5B2308178300822FD8 /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D552308178300822FD8 /* AngularGradientView.swift */; };
+		238F7D5C2308178300822FD8 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D562308178300822FD8 /* LinearGradientView.swift */; };
+		238F7D632308179700822FD8 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D5D2308179700822FD8 /* DragGestureView.swift */; };
+		238F7D642308179700822FD8 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D5E2308179700822FD8 /* TapGestureView.swift */; };
+		238F7D652308179700822FD8 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D5F2308179700822FD8 /* LongPressGestureView.swift */; };
+		238F7D662308179700822FD8 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D602308179700822FD8 /* MagnificationGestureView.swift */; };
+		238F7D672308179700822FD8 /* BasicGesturesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D612308179700822FD8 /* BasicGesturesSection.swift */; };
+		238F7D682308179700822FD8 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D622308179700822FD8 /* RotationGestureView.swift */; };
+		238F7D6D230817AA00822FD8 /* ExclusiveGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D69230817AA00822FD8 /* ExclusiveGestureView.swift */; };
+		238F7D6E230817AA00822FD8 /* SequenceGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D6A230817AA00822FD8 /* SequenceGestureView.swift */; };
+		238F7D6F230817AA00822FD8 /* CombinedGesturesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D6B230817AA00822FD8 /* CombinedGesturesSection.swift */; };
+		238F7D70230817AA00822FD8 /* SimultaneousGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D6C230817AA00822FD8 /* SimultaneousGestureView.swift */; };
+		238F7D73230819E600822FD8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F7D72230819E600822FD8 /* SettingsView.swift */; };
 		23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069122E3538A00B505B1 /* AppDelegate.swift */; };
 		23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069322E3538A00B505B1 /* SceneDelegate.swift */; };
 		23A1069622E3538A00B505B1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1069522E3538A00B505B1 /* MainView.swift */; };
@@ -60,36 +91,6 @@
 		23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A822FE682F0041669F /* DatePickerView.swift */; };
 		23B1F0AB22FE68380041669F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AA22FE68380041669F /* SliderView.swift */; };
 		23B1F0AD22FE68430041669F /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AC22FE68430041669F /* StepperView.swift */; };
-		586D129F23067C0900F303B4 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D129E23067C0900F303B4 /* AnimationView.swift */; };
-		586D12A723067CC400F303B4 /* AnimationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A623067CC400F303B4 /* AnimationSection.swift */; };
-		586D12A923067DEB00F303B4 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12A823067DEB00F303B4 /* RectangleView.swift */; };
-		586D12AB23067E0500F303B4 /* RoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12AA23067E0500F303B4 /* RoundedRectangleView.swift */; };
-		586D12AD23067E1D00F303B4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12AC23067E1D00F303B4 /* CircleView.swift */; };
-		586D12AF23067E3200F303B4 /* EllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12AE23067E3200F303B4 /* EllipseView.swift */; };
-		586D12B123067E4700F303B4 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B023067E4700F303B4 /* CapsuleView.swift */; };
-		586D12B323067E5900F303B4 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B223067E5900F303B4 /* PathView.swift */; };
-		586D12B523067E6A00F303B4 /* ShapesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B423067E6A00F303B4 /* ShapesSection.swift */; };
-		586D12B72306807F00F303B4 /* ScaledShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B62306807F00F303B4 /* ScaledShapeView.swift */; };
-		586D12B9230680AA00F303B4 /* RotatedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12B8230680AA00F303B4 /* RotatedShapeView.swift */; };
-		586D12BB230680BD00F303B4 /* OffsetShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12BA230680BD00F303B4 /* OffsetShapeView.swift */; };
-		586D12BD230680D100F303B4 /* TransformedShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12BC230680D100F303B4 /* TransformedShapeView.swift */; };
-		586D12BF230680ED00F303B4 /* TransformedShapesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12BE230680ED00F303B4 /* TransformedShapesSection.swift */; };
-		586D12C1230681D500F303B4 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C0230681D500F303B4 /* ColorView.swift */; };
-		586D12C3230681E900F303B4 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C2230681E900F303B4 /* ImagePaintView.swift */; };
-		586D12C72306821900F303B4 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C62306821900F303B4 /* LinearGradientView.swift */; };
-		586D12C92306823300F303B4 /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12C82306823300F303B4 /* AngularGradientView.swift */; };
-		586D12CB2306824900F303B4 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12CA2306824900F303B4 /* RadialGradientView.swift */; };
-		586D12D1230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12D0230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift */; };
-		586D12E32306D61D00F303B4 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12E22306D61D00F303B4 /* TapGestureView.swift */; };
-		586D12E52306D63500F303B4 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12E42306D63400F303B4 /* LongPressGestureView.swift */; };
-		586D12E72306D64A00F303B4 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12E62306D64A00F303B4 /* DragGestureView.swift */; };
-		586D12E92306D66200F303B4 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12E82306D66200F303B4 /* MagnificationGestureView.swift */; };
-		586D12EB2306D67600F303B4 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12EA2306D67600F303B4 /* RotationGestureView.swift */; };
-		586D12ED2306D69300F303B4 /* BasicGesturesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D12EC2306D69300F303B4 /* BasicGesturesSection.swift */; };
-		58E8F4562307C399005E0A71 /* SequenceGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8F4552307C399005E0A71 /* SequenceGestureView.swift */; };
-		58E8F4582307C3AF005E0A71 /* SimultaneousGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8F4572307C3AF005E0A71 /* SimultaneousGestureView.swift */; };
-		58E8F45A2307C3C2005E0A71 /* ExclusiveGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8F4592307C3C2005E0A71 /* ExclusiveGestureView.swift */; };
-		58E8F45C2307C3D7005E0A71 /* CombinedGesturesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8F45B2307C3D7005E0A71 /* CombinedGesturesSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +128,37 @@
 		238F7D2D230373AE00822FD8 /* TwitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterView.swift; sourceTree = "<group>"; };
 		238F7D31230373E000822FD8 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		238F7D332304C0A400822FD8 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		238F7D352308133D00822FD8 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		238F7D362308133D00822FD8 /* AnimationSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationSection.swift; sourceTree = "<group>"; };
+		238F7D392308135400822FD8 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		238F7D3A2308135400822FD8 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		238F7D3B2308135400822FD8 /* EllipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseView.swift; sourceTree = "<group>"; };
+		238F7D3C2308135400822FD8 /* ShapesSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapesSection.swift; sourceTree = "<group>"; };
+		238F7D3D2308135500822FD8 /* RectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		238F7D3E2308135500822FD8 /* CapsuleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleView.swift; sourceTree = "<group>"; };
+		238F7D3F2308135500822FD8 /* RoundedRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectangleView.swift; sourceTree = "<group>"; };
+		238F7D472308176200822FD8 /* RotatedShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedShapeView.swift; sourceTree = "<group>"; };
+		238F7D482308176200822FD8 /* TransformedShapesSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformedShapesSection.swift; sourceTree = "<group>"; };
+		238F7D492308176200822FD8 /* OffsetShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetShapeView.swift; sourceTree = "<group>"; };
+		238F7D4A2308176200822FD8 /* ScaledShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledShapeView.swift; sourceTree = "<group>"; };
+		238F7D4B2308176200822FD8 /* TransformedShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformedShapeView.swift; sourceTree = "<group>"; };
+		238F7D512308178300822FD8 /* RadialGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		238F7D522308178300822FD8 /* ImagePaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
+		238F7D532308178300822FD8 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		238F7D542308178300822FD8 /* PaintsStylesAndGradientsSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintsStylesAndGradientsSection.swift; sourceTree = "<group>"; };
+		238F7D552308178300822FD8 /* AngularGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngularGradientView.swift; sourceTree = "<group>"; };
+		238F7D562308178300822FD8 /* LinearGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientView.swift; sourceTree = "<group>"; };
+		238F7D5D2308179700822FD8 /* DragGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		238F7D5E2308179700822FD8 /* TapGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		238F7D5F2308179700822FD8 /* LongPressGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		238F7D602308179700822FD8 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
+		238F7D612308179700822FD8 /* BasicGesturesSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicGesturesSection.swift; sourceTree = "<group>"; };
+		238F7D622308179700822FD8 /* RotationGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		238F7D69230817AA00822FD8 /* ExclusiveGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusiveGestureView.swift; sourceTree = "<group>"; };
+		238F7D6A230817AA00822FD8 /* SequenceGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceGestureView.swift; sourceTree = "<group>"; };
+		238F7D6B230817AA00822FD8 /* CombinedGesturesSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedGesturesSection.swift; sourceTree = "<group>"; };
+		238F7D6C230817AA00822FD8 /* SimultaneousGestureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimultaneousGestureView.swift; sourceTree = "<group>"; };
+		238F7D72230819E600822FD8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		23A1068E22E3538A00B505B1 /* SwiftUICatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1069122E3538A00B505B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A1069322E3538A00B505B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,36 +180,6 @@
 		23B1F0A822FE682F0041669F /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		23B1F0AA22FE68380041669F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		23B1F0AC22FE68430041669F /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
-		586D129E23067C0900F303B4 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/AnimationView.swift; sourceTree = "<group>"; };
-		586D12A623067CC400F303B4 /* AnimationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Animation/AnimationSection.swift; sourceTree = "<group>"; };
-		586D12A823067DEB00F303B4 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RectangleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/RectangleView.swift; sourceTree = "<group>"; };
-		586D12AA23067E0500F303B4 /* RoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedRectangleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/RoundedRectangleView.swift; sourceTree = "<group>"; };
-		586D12AC23067E1D00F303B4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/CircleView.swift; sourceTree = "<group>"; };
-		586D12AE23067E3200F303B4 /* EllipseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EllipseView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/EllipseView.swift; sourceTree = "<group>"; };
-		586D12B023067E4700F303B4 /* CapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CapsuleView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/CapsuleView.swift; sourceTree = "<group>"; };
-		586D12B223067E5900F303B4 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PathView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/PathView.swift; sourceTree = "<group>"; };
-		586D12B423067E6A00F303B4 /* ShapesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShapesSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/Shapes/ShapesSection.swift; sourceTree = "<group>"; };
-		586D12B62306807F00F303B4 /* ScaledShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScaledShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /ScaledShapeView.swift"; sourceTree = "<group>"; };
-		586D12B8230680AA00F303B4 /* RotatedShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RotatedShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /RotatedShapeView.swift"; sourceTree = "<group>"; };
-		586D12BA230680BD00F303B4 /* OffsetShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OffsetShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /OffsetShapeView.swift"; sourceTree = "<group>"; };
-		586D12BC230680D100F303B4 /* TransformedShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransformedShapeView.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /TransformedShapeView.swift"; sourceTree = "<group>"; };
-		586D12BE230680ED00F303B4 /* TransformedShapesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransformedShapesSection.swift; path = "../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/TransformedShapes /TransformedShapesSection.swift"; sourceTree = "<group>"; };
-		586D12C0230681D500F303B4 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/ColorView.swift; sourceTree = "<group>"; };
-		586D12C2230681E900F303B4 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagePaintView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/ImagePaintView.swift; sourceTree = "<group>"; };
-		586D12C62306821900F303B4 /* LinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinearGradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/LinearGradientView.swift; sourceTree = "<group>"; };
-		586D12C82306823300F303B4 /* AngularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AngularGradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/AngularGradientView.swift; sourceTree = "<group>"; };
-		586D12CA2306824900F303B4 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadialGradientView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/RadialGradientView.swift; sourceTree = "<group>"; };
-		586D12D0230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaintsStylesAndGradientsSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/DrawingAndAnimation/PaintsStylesAndGradients/PaintsStylesAndGradientsSection.swift; sourceTree = "<group>"; };
-		586D12E22306D61D00F303B4 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TapGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/BasicGestures/TapGestureView.swift; sourceTree = "<group>"; };
-		586D12E42306D63400F303B4 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LongPressGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/BasicGestures/LongPressGestureView.swift; sourceTree = "<group>"; };
-		586D12E62306D64A00F303B4 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DragGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/BasicGestures/DragGestureView.swift; sourceTree = "<group>"; };
-		586D12E82306D66200F303B4 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MagnificationGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/BasicGestures/MagnificationGestureView.swift; sourceTree = "<group>"; };
-		586D12EA2306D67600F303B4 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RotationGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/BasicGestures/RotationGestureView.swift; sourceTree = "<group>"; };
-		586D12EC2306D69300F303B4 /* BasicGesturesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicGesturesSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/BasicGestures/BasicGesturesSection.swift; sourceTree = "<group>"; };
-		58E8F4552307C399005E0A71 /* SequenceGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SequenceGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/CombinedGestures/SequenceGestureView.swift; sourceTree = "<group>"; };
-		58E8F4572307C3AF005E0A71 /* SimultaneousGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimultaneousGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/CombinedGestures/SimultaneousGestureView.swift; sourceTree = "<group>"; };
-		58E8F4592307C3C2005E0A71 /* ExclusiveGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExclusiveGestureView.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/CombinedGestures/ExclusiveGestureView.swift; sourceTree = "<group>"; };
-		58E8F45B2307C3D7005E0A71 /* CombinedGesturesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CombinedGesturesSection.swift; path = ../../../../../../../System/Volumes/Data/Users/ishikawamasayuki/Desktop/SwiftUICatalog/SwiftUICatalog/Gestures/CombinedGestures/CombinedGesturesSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,14 @@
 			path = TwitterUI;
 			sourceTree = "<group>";
 		};
+		238F7D71230819BA00822FD8 /* SettingsUI */ = {
+			isa = PBXGroup;
+			children = (
+				238F7D72230819E600822FD8 /* SettingsView.swift */,
+			);
+			path = SettingsUI;
+			sourceTree = "<group>";
+		};
 		23A1068522E3538900B505B1 = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +332,7 @@
 				586D129823067AF100F303B4 /* DrawingAndAnimation */,
 				586D12E02306D5E100F303B4 /* Gestures */,
 				238F7D2C230372DD00822FD8 /* TwitterUI */,
+				238F7D71230819BA00822FD8 /* SettingsUI */,
 				238F7D2A22FEFC6900822FD8 /* RowItem.swift */,
 				23A1069122E3538A00B505B1 /* AppDelegate.swift */,
 				23A1069322E3538A00B505B1 /* SceneDelegate.swift */,
@@ -389,8 +400,8 @@
 		586D129923067B6B00F303B4 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				586D129E23067C0900F303B4 /* AnimationView.swift */,
-				586D12A623067CC400F303B4 /* AnimationSection.swift */,
+				238F7D362308133D00822FD8 /* AnimationSection.swift */,
+				238F7D352308133D00822FD8 /* AnimationView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -398,13 +409,13 @@
 		586D129A23067B8100F303B4 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				586D12A823067DEB00F303B4 /* RectangleView.swift */,
-				586D12AA23067E0500F303B4 /* RoundedRectangleView.swift */,
-				586D12AC23067E1D00F303B4 /* CircleView.swift */,
-				586D12AE23067E3200F303B4 /* EllipseView.swift */,
-				586D12B023067E4700F303B4 /* CapsuleView.swift */,
-				586D12B223067E5900F303B4 /* PathView.swift */,
-				586D12B423067E6A00F303B4 /* ShapesSection.swift */,
+				238F7D3E2308135500822FD8 /* CapsuleView.swift */,
+				238F7D392308135400822FD8 /* CircleView.swift */,
+				238F7D3B2308135400822FD8 /* EllipseView.swift */,
+				238F7D3A2308135400822FD8 /* PathView.swift */,
+				238F7D3D2308135500822FD8 /* RectangleView.swift */,
+				238F7D3F2308135500822FD8 /* RoundedRectangleView.swift */,
+				238F7D3C2308135400822FD8 /* ShapesSection.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -412,11 +423,11 @@
 		586D129B23067B9800F303B4 /* TransformedShapes  */ = {
 			isa = PBXGroup;
 			children = (
-				586D12B62306807F00F303B4 /* ScaledShapeView.swift */,
-				586D12B8230680AA00F303B4 /* RotatedShapeView.swift */,
-				586D12BA230680BD00F303B4 /* OffsetShapeView.swift */,
-				586D12BC230680D100F303B4 /* TransformedShapeView.swift */,
-				586D12BE230680ED00F303B4 /* TransformedShapesSection.swift */,
+				238F7D492308176200822FD8 /* OffsetShapeView.swift */,
+				238F7D472308176200822FD8 /* RotatedShapeView.swift */,
+				238F7D4A2308176200822FD8 /* ScaledShapeView.swift */,
+				238F7D482308176200822FD8 /* TransformedShapesSection.swift */,
+				238F7D4B2308176200822FD8 /* TransformedShapeView.swift */,
 			);
 			path = "TransformedShapes ";
 			sourceTree = "<group>";
@@ -424,12 +435,12 @@
 		586D129C23067BBC00F303B4 /* PaintsStylesAndGradients */ = {
 			isa = PBXGroup;
 			children = (
-				586D12C0230681D500F303B4 /* ColorView.swift */,
-				586D12C2230681E900F303B4 /* ImagePaintView.swift */,
-				586D12C62306821900F303B4 /* LinearGradientView.swift */,
-				586D12C82306823300F303B4 /* AngularGradientView.swift */,
-				586D12CA2306824900F303B4 /* RadialGradientView.swift */,
-				586D12D0230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift */,
+				238F7D552308178300822FD8 /* AngularGradientView.swift */,
+				238F7D532308178300822FD8 /* ColorView.swift */,
+				238F7D522308178300822FD8 /* ImagePaintView.swift */,
+				238F7D562308178300822FD8 /* LinearGradientView.swift */,
+				238F7D542308178300822FD8 /* PaintsStylesAndGradientsSection.swift */,
+				238F7D512308178300822FD8 /* RadialGradientView.swift */,
 			);
 			path = PaintsStylesAndGradients;
 			sourceTree = "<group>";
@@ -446,12 +457,12 @@
 		586D12E12306D60600F303B4 /* BasicGestures */ = {
 			isa = PBXGroup;
 			children = (
-				586D12E22306D61D00F303B4 /* TapGestureView.swift */,
-				586D12E42306D63400F303B4 /* LongPressGestureView.swift */,
-				586D12E62306D64A00F303B4 /* DragGestureView.swift */,
-				586D12E82306D66200F303B4 /* MagnificationGestureView.swift */,
-				586D12EA2306D67600F303B4 /* RotationGestureView.swift */,
-				586D12EC2306D69300F303B4 /* BasicGesturesSection.swift */,
+				238F7D612308179700822FD8 /* BasicGesturesSection.swift */,
+				238F7D5D2308179700822FD8 /* DragGestureView.swift */,
+				238F7D5F2308179700822FD8 /* LongPressGestureView.swift */,
+				238F7D602308179700822FD8 /* MagnificationGestureView.swift */,
+				238F7D622308179700822FD8 /* RotationGestureView.swift */,
+				238F7D5E2308179700822FD8 /* TapGestureView.swift */,
 			);
 			path = BasicGestures;
 			sourceTree = "<group>";
@@ -482,10 +493,10 @@
 		58E8F4542307C378005E0A71 /* CombinedGestures */ = {
 			isa = PBXGroup;
 			children = (
-				58E8F4552307C399005E0A71 /* SequenceGestureView.swift */,
-				58E8F4572307C3AF005E0A71 /* SimultaneousGestureView.swift */,
-				58E8F4592307C3C2005E0A71 /* ExclusiveGestureView.swift */,
-				58E8F45B2307C3D7005E0A71 /* CombinedGesturesSection.swift */,
+				238F7D6B230817AA00822FD8 /* CombinedGesturesSection.swift */,
+				238F7D69230817AA00822FD8 /* ExclusiveGestureView.swift */,
+				238F7D6A230817AA00822FD8 /* SequenceGestureView.swift */,
+				238F7D6C230817AA00822FD8 /* SimultaneousGestureView.swift */,
 			);
 			path = CombinedGestures;
 			sourceTree = "<group>";
@@ -563,84 +574,85 @@
 			files = (
 				235C118322FEA63F00DAB5AF /* ValueSelectorsSection.swift in Sources */,
 				23B1F09622F9B94B0041669F /* SecureFieldView.swift in Sources */,
-				586D12B523067E6A00F303B4 /* ShapesSection.swift in Sources */,
 				23B1F09422F9B94B0041669F /* TextFieldView.swift in Sources */,
 				238F7D1922FEB5BF00822FD8 /* ActionSheetView.swift in Sources */,
 				238F7CEF22FEAF8600822FD8 /* ListsAndScrollViewsSection.swift in Sources */,
+				238F7D372308133D00822FD8 /* AnimationView.swift in Sources */,
 				238F7CE222FEADA000822FD8 /* HStackView.swift in Sources */,
-				586D12B72306807F00F303B4 /* ScaledShapeView.swift in Sources */,
 				238F7D2E230373AE00822FD8 /* TwitterView.swift in Sources */,
 				238F7CE022FEAD9400822FD8 /* StacksSection.swift in Sources */,
-				586D12E92306D66200F303B4 /* MagnificationGestureView.swift in Sources */,
-				58E8F4562307C399005E0A71 /* SequenceGestureView.swift in Sources */,
 				23B1F0AD22FE68430041669F /* StepperView.swift in Sources */,
 				238F7CE422FEADAD00822FD8 /* VStackView.swift in Sources */,
-				586D12BD230680D100F303B4 /* TransformedShapeView.swift in Sources */,
-				586D12A923067DEB00F303B4 /* RectangleView.swift in Sources */,
 				23B1F09822F9B9880041669F /* ImageView.swift in Sources */,
+				238F7D6E230817AA00822FD8 /* SequenceGestureView.swift in Sources */,
+				238F7D642308179700822FD8 /* TapGestureView.swift in Sources */,
 				238F7D0622FEB41700822FD8 /* NavigationViewView.swift in Sources */,
 				238F7D1222FEB46800822FD8 /* ArchitecturalViewsSection.swift in Sources */,
 				23B1F09022F9B9180041669F /* TextView.swift in Sources */,
 				23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */,
 				238F7CFA22FEB15C00822FD8 /* ContainerViewsSection.swift in Sources */,
+				238F7D432308135500822FD8 /* ShapesSection.swift in Sources */,
 				238F7CEB22FEAF5D00822FD8 /* ForEachView.swift in Sources */,
-				586D129F23067C0900F303B4 /* AnimationView.swift in Sources */,
 				238F7D2322FEB63E00822FD8 /* PresentaitonsSection.swift in Sources */,
-				586D12B123067E4700F303B4 /* CapsuleView.swift in Sources */,
 				23B1F0A522FE68190041669F /* ToggleView.swift in Sources */,
-				586D12A723067CC400F303B4 /* AnimationSection.swift in Sources */,
 				23A1069222E3538A00B505B1 /* AppDelegate.swift in Sources */,
+				238F7D5A2308178300822FD8 /* PaintsStylesAndGradientsSection.swift in Sources */,
 				23B1F0A722FE68240041669F /* PickerView.swift in Sources */,
 				238F7CF222FEB12000822FD8 /* FormView.swift in Sources */,
+				238F7D4E2308176200822FD8 /* OffsetShapeView.swift in Sources */,
+				238F7D6F230817AA00822FD8 /* CombinedGesturesSection.swift in Sources */,
 				238F7CFF22FEB2CC00822FD8 /* SpacerView.swift in Sources */,
 				238F7CF422FEB13D00822FD8 /* GroupView.swift in Sources */,
-				586D12CB2306824900F303B4 /* RadialGradientView.swift in Sources */,
 				235C117F22FEA5D300DAB5AF /* ImageSection.swift in Sources */,
 				238F7D2122FEB61F00822FD8 /* TupleViewView.swift in Sources */,
+				238F7D6D230817AA00822FD8 /* ExclusiveGestureView.swift in Sources */,
+				238F7D70230817AA00822FD8 /* SimultaneousGestureView.swift in Sources */,
 				238F7D1722FEB5B100822FD8 /* AlertView.swift in Sources */,
-				586D12AF23067E3200F303B4 /* EllipseView.swift in Sources */,
 				23B1F0A022F9B99D0041669F /* ButtonView.swift in Sources */,
-				586D12ED2306D69300F303B4 /* BasicGesturesSection.swift in Sources */,
-				586D12BF230680ED00F303B4 /* TransformedShapesSection.swift in Sources */,
+				238F7D442308135500822FD8 /* RectangleView.swift in Sources */,
+				238F7D5C2308178300822FD8 /* LinearGradientView.swift in Sources */,
+				238F7D382308133D00822FD8 /* AnimationSection.swift in Sources */,
 				238F7D1B22FEB5F700822FD8 /* EmptyViewView.swift in Sources */,
 				238F7CE922FEAF5200822FD8 /* ListView.swift in Sources */,
-				586D12B9230680AA00F303B4 /* RotatedShapeView.swift in Sources */,
-				586D12BB230680BD00F303B4 /* OffsetShapeView.swift in Sources */,
+				238F7D462308135500822FD8 /* RoundedRectangleView.swift in Sources */,
+				238F7D402308135500822FD8 /* CircleView.swift in Sources */,
+				238F7D422308135500822FD8 /* EllipseView.swift in Sources */,
 				238F7D342304C0A400822FD8 /* TweetModel.swift in Sources */,
-				586D12B323067E5900F303B4 /* PathView.swift in Sources */,
+				238F7D452308135500822FD8 /* CapsuleView.swift in Sources */,
+				238F7D412308135500822FD8 /* PathView.swift in Sources */,
+				238F7D73230819E600822FD8 /* SettingsView.swift in Sources */,
 				235C117D22FEA59500DAB5AF /* TextSection.swift in Sources */,
-				58E8F45C2307C3D7005E0A71 /* CombinedGesturesSection.swift in Sources */,
-				586D12EB2306D67600F303B4 /* RotationGestureView.swift in Sources */,
-				586D12C72306821900F303B4 /* LinearGradientView.swift in Sources */,
-				586D12E72306D64A00F303B4 /* DragGestureView.swift in Sources */,
+				238F7D582308178300822FD8 /* ImagePaintView.swift in Sources */,
+				238F7D4F2308176200822FD8 /* ScaledShapeView.swift in Sources */,
+				238F7D5B2308178300822FD8 /* AngularGradientView.swift in Sources */,
 				238F7D2B22FEFC6900822FD8 /* RowItem.swift in Sources */,
-				586D12C1230681D500F303B4 /* ColorView.swift in Sources */,
-				586D12D1230682BA00F303B4 /* PaintsStylesAndGradientsSection.swift in Sources */,
+				238F7D672308179700822FD8 /* BasicGesturesSection.swift in Sources */,
+				238F7D592308178300822FD8 /* ColorView.swift in Sources */,
+				238F7D502308176200822FD8 /* TransformedShapeView.swift in Sources */,
 				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
-				586D12C92306823300F303B4 /* AngularGradientView.swift in Sources */,
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
-				586D12E52306D63500F303B4 /* LongPressGestureView.swift in Sources */,
 				235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */,
 				238F7D0122FEB2D700822FD8 /* DividerView.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
 				238F7CF822FEB15100822FD8 /* SectionView.swift in Sources */,
-				586D12E32306D61D00F303B4 /* TapGestureView.swift in Sources */,
 				238F7D0822FEB42400822FD8 /* TabViewView.swift in Sources */,
-				58E8F45A2307C3C2005E0A71 /* ExclusiveGestureView.swift in Sources */,
-				586D12AB23067E0500F303B4 /* RoundedRectangleView.swift in Sources */,
-				58E8F4582307C3AF005E0A71 /* SimultaneousGestureView.swift in Sources */,
+				238F7D652308179700822FD8 /* LongPressGestureView.swift in Sources */,
+				238F7D572308178300822FD8 /* RadialGradientView.swift in Sources */,
 				23A1069422E3538A00B505B1 /* SceneDelegate.swift in Sources */,
+				238F7D4C2308176200822FD8 /* RotatedShapeView.swift in Sources */,
+				238F7D632308179700822FD8 /* DragGestureView.swift in Sources */,
 				238F7D1F22FEB61600822FD8 /* AnyViewView.swift in Sources */,
 				238F7D0322FEB2E600822FD8 /* SpacersAndDividerSection.swift in Sources */,
-				586D12AD23067E1D00F303B4 /* CircleView.swift in Sources */,
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
+				238F7D662308179700822FD8 /* MagnificationGestureView.swift in Sources */,
 				238F7D2722FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift in Sources */,
 				238F7D32230373E000822FD8 /* TweetCell.swift in Sources */,
 				238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */,
 				238F7CED22FEAF6700822FD8 /* ScrollViewView.swift in Sources */,
-				586D12C3230681E900F303B4 /* ImagePaintView.swift in Sources */,
+				238F7D682308179700822FD8 /* RotationGestureView.swift in Sources */,
 				23B1F09522F9B94B0041669F /* FontView.swift in Sources */,
 				238F7D2522FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift in Sources */,
+				238F7D4D2308176200822FD8 /* TransformedShapesSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
