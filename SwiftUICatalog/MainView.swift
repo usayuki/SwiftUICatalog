@@ -34,6 +34,10 @@ struct MainView: View {
                     TransformedShapesSection()
                     PaintsStylesAndGradientsSection()
                 }
+                Section(header: Text("Gestures")) {
+                    BasicGesturesSection()
+                    CombinedGesturesSection()
+                }
                 Section(header: Text("Demo")) {
                     NavigationLink(destination: TwitterView()) {
                         RowItem(title: "Twitter Demo")

@@ -2,7 +2,7 @@
 //  PaintsStylesAndGradientsSection.swift
 //  SwiftUICatalog
 //
-//  Created by masapp on 2019/08/16.
+//  Created by usayuki on 2019/08/16.
 //  Copyright © 2019 usagi-tech. All rights reserved.
 //
 

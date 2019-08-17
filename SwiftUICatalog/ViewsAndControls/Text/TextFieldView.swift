@@ -2,7 +2,7 @@
 //  TextFieldView.swift
 //  SwiftUICatalog
 //
-//  Created by masapp on 2019/07/30.
+//  Created by usayuki on 2019/07/30.
 //  Copyright © 2019 usagi-tech. All rights reserved.
 //
 
