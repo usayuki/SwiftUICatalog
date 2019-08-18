@@ -51,11 +51,11 @@ struct TweetCell: View {
 struct TweetCell_Previews: PreviewProvider {
     static var previews: some View {
         TweetCell(model: .init(
-            icon: UIImage(named: "lena")!,
-            userName: "lena",
-            userId: "@lena",
+            icon: UIImage(named: "usayuki")!,
+            userName: "usayuki",
+            userId: "@usa",
             date: "1970/01/01",
-            message: "I am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena.\nI am Lena."
+            message: "I am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki.\nI am usayuki."
         ))
     }
 }

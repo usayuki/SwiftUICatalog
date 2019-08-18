@@ -11,7 +11,7 @@ import SwiftUI
 struct ImagePaintView: View {
     var body: some View {
         Circle()
-            .fill(ImagePaint(image: Image("lena")))
+            .fill(ImagePaint(image: Image("usayuki")))
     }
 }
 

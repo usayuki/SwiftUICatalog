@@ -12,14 +12,19 @@ struct TextFieldView: View {
     @Binding var text: String
     
     var body: some View {
-        VStack(alignment: .center, spacing: 50) {
-            TextField("Plain Text Field Style", text: $text)
-                .textFieldStyle(PlainTextFieldStyle())
-                .frame(width: 300)
-            TextField("Rounded Border Text Field Style", text: $text)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .frame(width: 300)
+        List {
+            Section(header: Text("plain")) {
+                TextField("Plain Text Field Style", text: $text)
+                    .textFieldStyle(PlainTextFieldStyle())
+                    .frame(width: 300)
+            }
+            Section(header: Text("rounded border")) {
+                TextField("Rounded Border Text Field Style", text: $text)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .frame(width: 300)
+            }
         }
+        .listStyle(GroupedListStyle())
     }
 }
 

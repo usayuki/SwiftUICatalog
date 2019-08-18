@@ -20,73 +20,73 @@ struct TweetModel: Identifiable {
 
 let tweetModels: [TweetModel] = [
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena00",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa00",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena01",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa01",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena02",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa02",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena03",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa03",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena04",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa04",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena05",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa05",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena06",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa06",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena07",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa07",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena08",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa08",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
     .init(
-        icon: UIImage(named: "lena")!,
-        userName: "lena",
-        userId: "@lena09",
+        icon: UIImage(named: "usayuki")!,
+        userName: "usayuki",
+        userId: "@usa09",
         date: "1970/01/01",
-        message: "I am Lena."
+        message: "I am usayuki."
     ),
 ]

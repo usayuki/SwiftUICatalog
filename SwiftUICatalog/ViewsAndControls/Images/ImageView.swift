@@ -10,7 +10,9 @@ import SwiftUI
 
 struct ImageView: View {
     var body: some View {
-        Image("lena")
+        Image("usayuki")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
     }
 }
 

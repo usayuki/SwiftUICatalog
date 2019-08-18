@@ -15,7 +15,7 @@ struct PaintsStylesAndGradientsSection: View {
                 RowItem(title: "Color", caption: "An environment-dependent color.")
             }
             NavigationLink(destination: ImagePaintView()) {
-                RowItem(title: "ImagePaing", caption: "A paint type that repeats an image over the infinite plane.")
+                RowItem(title: "ImagePaint", caption: "A paint type that repeats an image over the infinite plane.")
             }
             NavigationLink(destination: LinearGradientView()) {
                 RowItem(title: "LinerGradient", caption: "A linear gradient.")
