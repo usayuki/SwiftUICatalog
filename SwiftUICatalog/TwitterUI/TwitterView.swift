@@ -11,7 +11,7 @@ import SwiftUI
 struct TwitterView: View {
     var body: some View {
         List(tweetModels) { model in
-            TweetCell(model: model)
+            TweetRow(model: model)
         }
         .navigationBarTitle("")
     }
