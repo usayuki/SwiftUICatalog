@@ -45,6 +45,9 @@ struct MainView: View {
                     NavigationLink(destination: TwitterView()) {
                         RowItem(title: "Twitter Demo", caption: "Reproduce view of Twitter timeline.")
                     }
+                    NavigationLink(destination: ChatView()) {
+                        RowItem(title: "ChatUI Demo", caption: "")
+                    }
                 }
             }
             .navigationBarTitle("SwiftUI Catalog")
