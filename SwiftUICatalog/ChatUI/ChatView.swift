@@ -2,7 +2,7 @@
 //  ChatView.swift
 //  SwiftUICatalog
 //
-//  Created by masapp on 2019/08/27.
+//  Created by usayuki on 2019/08/27.
 //  Copyright © 2019 usagi-tech. All rights reserved.
 //
 

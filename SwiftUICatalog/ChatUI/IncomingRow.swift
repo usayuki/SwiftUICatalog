@@ -2,7 +2,7 @@
 //  IncomingRow.swift
 //  SwiftUICatalog
 //
-//  Created by masapp on 2019/08/27.
+//  Created by usayuki on 2019/08/27.
 //  Copyright © 2019 usagi-tech. All rights reserved.
 //
 
@@ -20,14 +20,13 @@ struct IncomingRow: View {
                 path.addQuadCurve(to: CGPoint(x: 20, y: 2), control: CGPoint(x: 10, y: 5))
                 path.addQuadCurve(to: CGPoint(x: 0, y: 0), control: CGPoint(x: 10, y: 20))
             }
-                .fill(Color.green)
-                .frame(width: size.width + 52, height: 20, alignment: .leading)
+            .fill(Color.gray)
+            .frame(width: size.width + 52, height: 20)
             Rectangle()
-                .frame(width: size.width + 32, height: size.height + 10, alignment: .center)
-                .foregroundColor(.green)
+                .frame(width: size.width + 32, height: size.height + 10)
+                .foregroundColor(.gray)
                 .cornerRadius(16)
             Text(model.message)
-                .foregroundColor(.white)
                 .font(.system(size: 17))
         }
     }

@@ -2,7 +2,7 @@
 //  OutgoingRow.swift
 //  SwiftUICatalog
 //
-//  Created by masapp on 2019/08/27.
+//  Created by usayuki on 2019/08/27.
 //  Copyright © 2019 usagi-tech. All rights reserved.
 //
 
@@ -13,25 +13,26 @@ struct OutgoingRow: View {
     
     var body: some View {
         let size = model.message.size(withAttributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17)])
-        
-        return ZStack {
-            Path { path in
-                path.move(to: CGPoint(x: 0, y: 0))
-                path.addQuadCurve(to: CGPoint(x: 20, y: -2), control: CGPoint(x: 10, y: 5))
-                path.addQuadCurve(to: CGPoint(x: 0, y: 0), control: CGPoint(x: 10, y: 20))
-            }
-                .fill(Color.gray)
-                .frame(width: UIScreen.main.bounds.width, height: 20, alignment: .trailing)
-//            ZStack {
+
+        return HStack {
+            Spacer()
+            ZStack {
+                Path { path in
+                    path.move(to: CGPoint(x: size.width + 32, y: 0))
+                    path.addQuadCurve(to: CGPoint(x: size.width + 52, y: -2), control: CGPoint(x: size.width + 42, y: 5))
+                    path.addQuadCurve(to: CGPoint(x: size.width + 32, y: 0), control: CGPoint(x: size.width + 42, y: 20))
+                }
+                .fill(Color.green)
+                .frame(width: size.width + 52, height: 20)
                 Rectangle()
-                    .frame(width: size.width + 32, height: size.height + 10, alignment: .trailing)
-                    .foregroundColor(.gray)
+                    .frame(width: size.width + 32, height: size.height + 10)
+                    .foregroundColor(.green)
                     .cornerRadius(16)
                 Text(model.message)
+                    .foregroundColor(.black)
                     .font(.system(size: 17))
-//            }.frame(alignment: .trailing)
+                }
         }
-            .frame(width: UIScreen.main.bounds.width)
     }
 }
 
