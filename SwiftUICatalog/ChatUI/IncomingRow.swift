@@ -15,9 +15,17 @@ struct IncomingRow: View {
         let size = model.message.size(withAttributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17)])
         
         return ZStack {
+            Path { path in
+                path.move(to: CGPoint(x: 0, y: 0))
+                path.addQuadCurve(to: CGPoint(x: 20, y: 2), control: CGPoint(x: 10, y: 5))
+                path.addQuadCurve(to: CGPoint(x: 0, y: 0), control: CGPoint(x: 10, y: 20))
+            }
+                .fill(Color.green)
+                .frame(width: size.width + 52, height: 20, alignment: .leading)
             Rectangle()
-                .frame(width: size.width + 32, height: size.height + 10, alignment: .leading)
+                .frame(width: size.width + 32, height: size.height + 10, alignment: .center)
                 .foregroundColor(.green)
+                .cornerRadius(16)
             Text(model.message)
                 .foregroundColor(.white)
                 .font(.system(size: 17))
