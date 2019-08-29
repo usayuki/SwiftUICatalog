@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TweetCell: View {
+struct TweetRow: View {
     let model: TweetModel
     
     var body: some View {
@@ -48,9 +48,9 @@ struct TweetCell: View {
 }
 
 #if DEBUG
-struct TweetCell_Previews: PreviewProvider {
+struct TweetRow_Previews: PreviewProvider {
     static var previews: some View {
-        TweetCell(model: .init(
+        TweetRow(model: .init(
             icon: UIImage(named: "usayuki")!,
             userName: "usayuki",
             userId: "@usa",
