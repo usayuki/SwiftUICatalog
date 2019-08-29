@@ -46,7 +46,7 @@ struct MainView: View {
                         RowItem(title: "Twitter Demo", caption: "Reproduce view of Twitter timeline.")
                     }
                     NavigationLink(destination: ChatView()) {
-                        RowItem(title: "ChatUI Demo", caption: "")
+                        RowItem(title: "ChatUI Demo", caption: "Reproduce view of Chat Message.")
                     }
                 }
             }
