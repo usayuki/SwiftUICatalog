@@ -91,6 +91,10 @@
 		23B1F0A922FE682F0041669F /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0A822FE682F0041669F /* DatePickerView.swift */; };
 		23B1F0AB22FE68380041669F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AA22FE68380041669F /* SliderView.swift */; };
 		23B1F0AD22FE68430041669F /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1F0AC22FE68430041669F /* StepperView.swift */; };
+		58B1003A23156A730057FD01 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1003923156A730057FD01 /* ChatView.swift */; };
+		58B1003C23156CD50057FD01 /* IncomingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1003B23156CD40057FD01 /* IncomingRow.swift */; };
+		58B1003E23156E6F0057FD01 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1003D23156E6F0057FD01 /* ChatModel.swift */; };
+		58B100402315795F0057FD01 /* OutgoingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1003F2315795F0057FD01 /* OutgoingRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -180,6 +184,10 @@
 		23B1F0A822FE682F0041669F /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		23B1F0AA22FE68380041669F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		23B1F0AC22FE68430041669F /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		58B1003923156A730057FD01 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		58B1003B23156CD40057FD01 /* IncomingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingRow.swift; sourceTree = "<group>"; };
+		58B1003D23156E6F0057FD01 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		58B1003F2315795F0057FD01 /* OutgoingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutgoingRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +341,7 @@
 				586D12E02306D5E100F303B4 /* Gestures */,
 				238F7D2C230372DD00822FD8 /* TwitterUI */,
 				238F7D71230819BA00822FD8 /* SettingsUI */,
+				58B1003823156A1A0057FD01 /* ChatUI */,
 				238F7D2A22FEFC6900822FD8 /* RowItem.swift */,
 				23A1069122E3538A00B505B1 /* AppDelegate.swift */,
 				23A1069322E3538A00B505B1 /* SceneDelegate.swift */,
@@ -490,6 +499,17 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		58B1003823156A1A0057FD01 /* ChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				58B1003923156A730057FD01 /* ChatView.swift */,
+				58B1003B23156CD40057FD01 /* IncomingRow.swift */,
+				58B1003F2315795F0057FD01 /* OutgoingRow.swift */,
+				58B1003D23156E6F0057FD01 /* ChatModel.swift */,
+			);
+			path = ChatUI;
+			sourceTree = "<group>";
+		};
 		58E8F4542307C378005E0A71 /* CombinedGestures */ = {
 			isa = PBXGroup;
 			children = (
@@ -631,6 +651,7 @@
 				238F7D502308176200822FD8 /* TransformedShapeView.swift in Sources */,
 				23B1F0AB22FE68380041669F /* SliderView.swift in Sources */,
 				23B1F0A222F9B99D0041669F /* EditButtonView.swift in Sources */,
+				58B1003E23156E6F0057FD01 /* ChatModel.swift in Sources */,
 				235C118122FEA60000DAB5AF /* ButtonSection.swift in Sources */,
 				238F7D0122FEB2D700822FD8 /* DividerView.swift in Sources */,
 				23B1F09F22F9B99D0041669F /* NavigationLinkView.swift in Sources */,
@@ -646,13 +667,16 @@
 				23A1069622E3538A00B505B1 /* MainView.swift in Sources */,
 				238F7D662308179700822FD8 /* MagnificationGestureView.swift in Sources */,
 				238F7D2722FEB65800822FD8 /* InfrequentlyUsedViewsSection.swift in Sources */,
+				58B1003A23156A730057FD01 /* ChatView.swift in Sources */,
 				238F7D32230373E000822FD8 /* TweetRow.swift in Sources */,
 				238F7CE622FEADB800822FD8 /* ZStackView.swift in Sources */,
 				238F7CED22FEAF6700822FD8 /* ScrollViewView.swift in Sources */,
+				58B100402315795F0057FD01 /* OutgoingRow.swift in Sources */,
 				238F7D682308179700822FD8 /* RotationGestureView.swift in Sources */,
 				23B1F09522F9B94B0041669F /* FontView.swift in Sources */,
 				238F7D2522FEB64B00822FD8 /* ConditionallyVisibleItemsSection.swift in Sources */,
 				238F7D4D2308176200822FD8 /* TransformedShapesSection.swift in Sources */,
+				58B1003C23156CD50057FD01 /* IncomingRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
